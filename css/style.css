@@ -20,11 +20,11 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: red;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Petrona', serif;
+    font-weight: 700;
 }
 
 h1, h3 {
@@ -45,12 +45,17 @@ button {
 }
 
 .section {
-    padding: 3rem 5rem;
+    padding: 5rem;
 }
 
 .section img {
-    max-width: 450px;
+    max-width: 500px;
 }
+
+.references {
+    padding: 1rem 0;
+}
+
 
 /* =================
     Navigation
@@ -69,7 +74,7 @@ nav {
 }
 
 nav ul li {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .nav-link {
@@ -84,32 +89,40 @@ nav ul li {
     Spring Styles
 ================= */ 
 
-.spring-landing-sec {
+.spring-first-sec {
     background-color: var(--spring-primary);
     color: var(--brand);
 }
 
-.spring-first-sec {
+.spring-first-sec img {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.spring-second-sec {
     background-color: var(--brand);
     color: var(--spring-secondary);
 }
 
-.spring-second-sec {
+.spring-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.spring-second-sec p {
+    text-align: left;
+}
+
+.spring-third-sec {
     background-color: var(--spring-primary);
     color: var(--brand);
 }
 
-.spring-third-sec {
+.spring-fourth-sec {
     background-color:var(--brand);
     color: var(--spring-secondary);
 }
 
-.spring-fourth-sec {
-    background-color:var(--spring-primary);
-    color: var(--brand);
-}
-
-.spring-last-sec {
+.spring-fifth-sec {
     background-color:var(--spring-primary);
     color: var(--brand);
 }
