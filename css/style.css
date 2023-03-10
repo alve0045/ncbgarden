@@ -1,0 +1,32 @@
+
+body {
+    font-family: sans-serif;
+}
+
+.section {
+    padding: 5rem 2rem;
+}
+
+.landing-section {
+    background-color: yellow;
+}
+
+.first-section {
+    background-color: yellowgreen;
+}
+
+.second-section {
+    background-color: green;
+}
+
+.third-section {
+    background-color:aquamarine;
+}
+
+.fourth-section {
+    background-color:blue;
+}
+
+.last-section {
+    background-color:rgb(0, 255, 217);
+}
