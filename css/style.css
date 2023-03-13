@@ -19,7 +19,10 @@
 ================= */ 
 
 body {
+    width: 100vw;
+    height: auto;
     font-family: 'Lato', sans-serif;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -40,11 +43,11 @@ p, a, ul, li, span {
 }
 
 button {
-    background-color: var(--spring-accent);
-    color: white;
+    padding: 0.5rem 2rem;
 }
 
 .section {
+    width: 100%;
     padding: 5rem;
 }
 
@@ -52,8 +55,9 @@ button {
     max-width: 500px;
 }
 
-.references {
-    padding: 1rem 0;
+span .references {
+    /* padding: 2rem 0 0 0; */
+    margin-top: 4rem !important;
 }
 
 
@@ -89,14 +93,51 @@ nav ul li {
     Spring Styles
 ================= */ 
 
+.spring-active {
+    color: var(--spring-accent);
+}
+
+.spring-btn1 {
+    background-color: var(--spring-accent);
+    border: 2px solid var(--spring-accent);
+    color: white; 
+}
+
+.spring-btn1:hover {
+    border: 2px solid var(--spring-accent);
+    color: var(--spring-accent);
+}
+
+.spring-btn2 {
+    border: 2px solid var(--spring-accent);
+    color: var(--spring-accent);
+}
+
+.spring-btn2:hover{
+    background-color: var(--spring-accent);
+    color: white;
+}
+
 .spring-first-sec {
     background-color: var(--spring-primary);
     color: var(--brand);
+    position: relative;
 }
 
-.spring-first-sec img {
+.spring-fsec-img1 {
+    position: absolute;
+    bottom: -22%;
+    left: 0;
+}
+
+.spring-fsec-img2 {
+    position: absolute;
+    bottom: -18%;
+    right: 0;
+}
+
+.spring-thumbnail {
     max-width: 80px;
-    margin-bottom: 1rem;
 }
 
 .spring-second-sec {
@@ -125,4 +166,26 @@ nav ul li {
 .spring-fifth-sec {
     background-color:var(--spring-primary);
     color: var(--brand);
+    position: relative;
+}
+
+.footer {   
+    text-align: right;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer .spring-btn1 {
+    margin-right: 1rem;
+}
+
+.footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.footer-sec2 img{
+    max-width: 60px;
 }
