@@ -8,10 +8,15 @@
     Color Palette
 ================ */ 
 :root {
-    --brand: #007935;
+    --spring-brand: #007935;
     --spring-primary: #FEFFE4;
     --spring-accent:#FF2E71;
     --spring-secondary: #FFF7BD;
+
+    --summer-brand: #007935;
+    --summer-primary: #FEFFE4;
+    --summer-accent:#FF2E71;
+    --summer-secondary: #FFF7BD;
 }
 
 /* =================
@@ -52,7 +57,14 @@ button {
 }
 
 .section img {
-    max-width: 500px;
+    max-width: 450px;
+}
+
+.footer {   
+    text-align: right;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 span .references {
@@ -61,9 +73,15 @@ span .references {
 }
 
 
+
+
 /* =================
     Navigation
-================= */ 
+================= */
+
+#navbarNav li {
+    padding-top: 1rem;
+} 
 
 nav {
     background-color: var(--spring-primary);
@@ -78,11 +96,11 @@ nav {
 }
 
 nav ul li {
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .nav-link {
-    color: var(--brand);
+    color: var(--spring-brand);
 }
 
 .nav-link .active a{
@@ -118,31 +136,74 @@ nav ul li {
     color: white;
 }
 
+/* Spring First Section */
+
 .spring-first-sec {
     background-color: var(--spring-primary);
-    color: var(--brand);
+    color: var(--spring-brand);
     position: relative;
 }
 
-.spring-fsec-img1 {
+#spring-fsec-img1 {
     position: absolute;
     bottom: -22%;
     left: 0;
+    z-index: 10000;
 }
 
-.spring-fsec-img2 {
+#spring-fsec-img2 {
     position: absolute;
     bottom: -18%;
     right: 0;
+    z-index: 10000;
+}
+
+#spring-fsec-img3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#spring-fsec-img4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#spring-fsec-img5 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 100;
+}
+
+#spring-fsec-img6 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 100;
+}
+
+#spring-fsec-img1, #spring-fsec-img2, #spring-fsec-img5, #spring-fsec-img6 {
+    max-width: 400px;
+}
+
+#spring-fsec-img3, #spring-fsec-img4 {
+    max-width: 230px;
 }
 
 .spring-thumbnail {
     max-width: 80px;
 }
 
+/* Spring Second Section */
+
 .spring-second-sec {
-    background-color: var(--brand);
+    background-color: var(--spring-brand);
     color: var(--spring-secondary);
+    position: relative;
 }
 
 .spring-second-sec h3 {
@@ -153,39 +214,66 @@ nav ul li {
     text-align: left;
 }
 
+#spring-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
+}
+
+#spring-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
+}
+
+/* Spring Third Section */
+
 .spring-third-sec {
     background-color: var(--spring-primary);
-    color: var(--brand);
+    color: var(--spring-brand);
 }
+
+/* Spring Fourth Section */
 
 .spring-fourth-sec {
-    background-color:var(--brand);
+    background-color:var(--spring-brand);
     color: var(--spring-secondary);
-}
-
-.spring-fifth-sec {
-    background-color:var(--spring-primary);
-    color: var(--brand);
     position: relative;
 }
 
-.footer {   
-    text-align: right;
-    padding-top: 5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
+#spring-frsec-img1 {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    z-index: 0;
+    max-width: 350px;
 }
 
-.footer .spring-btn1 {
+/* Spring Fifth Section */
+
+.spring-fifth-sec {
+    background-color:var(--spring-primary);
+    color: var(--spring-brand);
+    position: relative;
+}
+
+.spring-fifth-sec .footer .spring-btn1 {
     margin-right: 1rem;
 }
 
-.footer-sec1 img {
+.spring-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
     left: 10%;
 }
 
-.footer-sec2 img{
+.spring-fifth-sec .footer-sec2 img{
     max-width: 60px;
 }
+
+
+/* =================
+    Summer Styles
+================= */ 
