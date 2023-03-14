@@ -2,16 +2,33 @@
     Fonts
 ============ */   
 
+/* Headings: Petrona, Body: Lato */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Petrona:wght@400;700&display=swap');
 
 /* ================
     Color Palette
 ================ */ 
 :root {
-    --brand: #007935;
+    --spring-brand: #007935;
     --spring-primary: #FEFFE4;
     --spring-accent:#FF2E71;
     --spring-secondary: #FFF7BD;
+
+    --summer-brand: #025F38;
+    --summer-primary: #FFFDCB;
+    --summer-accent:#F55800;
+    --summer-secondary: #CCE436;
+
+    --fall-brand: #283618;
+    --fall-primary: #FFF7F2;
+    --fall-accent:#C44536;
+    --fall-secondary: #606C38;
+
+    --winter-brand: #113B7B;
+    --winter-primary: #F4F7FF;
+    --winter-accent:#C55DF6;
+    --winter-secondary: #354E71;    
 }
 
 /* =================
@@ -19,7 +36,10 @@
 ================= */ 
 
 body {
+    width: 100vw;
+    height: auto;
     font-family: 'Lato', sans-serif;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -40,30 +60,49 @@ p, a, ul, li, span {
 }
 
 button {
-    background-color: var(--spring-accent);
-    color: white;
+    padding: 0.5rem 2rem;
 }
 
 .section {
+    width: 100%;
     padding: 5rem;
 }
 
+.landing-sec {
+    height: 450px;
+}
+
 .section img {
-    max-width: 500px;
+    max-width: 450px;
 }
 
-.references {
-    padding: 1rem 0;
+.custom-thumbnail {
+    margin-bottom: 1rem;
 }
 
+.footer {   
+    text-align: right;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-brand {
+    margin-bottom: 1rem;
+}
+
+span .references {
+    /* padding: 2rem 0 0 0; */
+    margin-top: 4rem !important;
+}
 
 /* =================
     Navigation
-================= */ 
+================= */
 
-nav {
-    background-color: var(--spring-primary);
-}
+#navbarNav li {
+    padding-top: 1rem;
+} 
 
 .navbar-brand {
     padding: 0 2rem;
@@ -74,11 +113,11 @@ nav {
 }
 
 nav ul li {
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .nav-link {
-    color: var(--brand);
+    color: var(--spring-brand);
 }
 
 .nav-link .active a{
@@ -88,20 +127,99 @@ nav ul li {
 /* =================
     Spring Styles
 ================= */ 
+.nav-spring{
+    background-color: var(--spring-primary);
+}
+
+.spring-active {
+    color: var(--spring-accent);
+}
+
+.spring-btn1 {
+    background-color: var(--spring-accent);
+    border: 2px solid var(--spring-accent);
+    color: white; 
+}
+
+.spring-btn1:hover {
+    border: 2px solid var(--spring-accent);
+    color: var(--spring-accent);
+}
+
+.spring-btn2 {
+    border: 2px solid var(--spring-accent);
+    color: var(--spring-accent);
+}
+
+.spring-btn2:hover{
+    background-color: var(--spring-accent);
+    color: white;
+}
+
+/* Spring First Section */
 
 .spring-first-sec {
     background-color: var(--spring-primary);
-    color: var(--brand);
+    color: var(--spring-brand);
+    position: relative;
 }
 
-.spring-first-sec img {
-    max-width: 80px;
-    margin-bottom: 1rem;
+#spring-fsec-img1 {
+    position: absolute;
+    bottom: -22%;
+    left: 0;
+    z-index: 10000;
 }
+
+#spring-fsec-img2 {
+    position: absolute;
+    bottom: -18%;
+    right: 0;
+    z-index: 10000;
+}
+
+#spring-fsec-img3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#spring-fsec-img4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#spring-fsec-img5 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 100;
+}
+
+#spring-fsec-img6 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 100;
+}
+
+#spring-fsec-img1, #spring-fsec-img2, #spring-fsec-img5, #spring-fsec-img6 {
+    max-width: 400px;
+}
+
+#spring-fsec-img3, #spring-fsec-img4 {
+    max-width: 230px;
+}
+
+/* Spring Second Section */
 
 .spring-second-sec {
-    background-color: var(--brand);
+    background-color: var(--spring-brand);
     color: var(--spring-secondary);
+    position: relative;
 }
 
 .spring-second-sec h3 {
@@ -112,17 +230,519 @@ nav ul li {
     text-align: left;
 }
 
-.spring-third-sec {
-    background-color: var(--spring-primary);
-    color: var(--brand);
+#spring-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
 }
 
-.spring-fourth-sec {
-    background-color:var(--brand);
-    color: var(--spring-secondary);
+#spring-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
 }
+
+#spring-ssec-thumbnail-sec img {
+    max-width: 200px;
+}
+
+/* Spring Third Section */
+
+.spring-third-sec {
+    background-color: var(--spring-primary);
+    color: var(--spring-brand);
+}
+
+/* Spring Fourth Section */
+
+.spring-fourth-sec {
+    background-color:var(--spring-brand);
+    color: var(--spring-secondary);
+    position: relative;
+}
+
+#spring-frsec-img1 {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    z-index: 0;
+    max-width: 350px;
+}
+
+/* Spring Fifth Section */
 
 .spring-fifth-sec {
     background-color:var(--spring-primary);
-    color: var(--brand);
+    color: var(--spring-brand);
+    position: relative;
+}
+
+.spring-fifth-sec .footer .spring-btn1 {
+    margin-right: 1rem;
+}
+
+.spring-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+
+/* =================
+    Summer Styles
+================= */ 
+
+.nav-summer{
+    background-color: var(--summer-primary);
+}
+
+.summer-active {
+    color: var(--summer-accent);
+}
+
+.summer-btn1 {
+    background-color: var(--summer-accent);
+    border: 2px solid var(--summer-accent);
+    color: white; 
+}
+
+.summer-btn1:hover {
+    border: 2px solid var(--summer-accent);
+    color: var(--summer-accent);
+}
+
+.summer-btn2 {
+    border: 2px solid var(--summer-accent);
+    color: var(--summer-accent);
+}
+
+.summer-btn2:hover{
+    background-color: var(--summer-accent);
+    color: white;
+}
+
+/* Summer First Section */
+
+.summer-first-sec {
+    background-color: var(--summer-primary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+#summer-fsec-img1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#summer-fsec-img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#summer-fsec-img3 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 100;
+}
+
+#summer-fsec-img4 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 100;
+}
+
+#summer-fsec-img1, #summer-fsec-img2, #summer-fsec-img5, #summer-fsec-img6 {
+    max-width: 250px;
+}
+
+/* Summer Second Section */
+
+.summer-second-sec {
+    background-color: var(--summer-secondary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+.summer-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.summer-second-sec p {
+    text-align: left;
+}
+
+#summer-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
+}
+
+#summer-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
+}
+
+#summer-ssec-img1, #summer-ssec-img2 {
+    max-width: 300px;
+}
+
+#summer-ssec-thumbnail-sec img {
+    max-width: 250px;
+}
+
+/* Summer Third Section */
+
+.summer-third-sec {
+    background-color: var(--summer-primary);
+    color: var(--summer-brand);
+}
+
+/* Summer Fourth Section */
+
+.summer-fourth-sec {
+    background-color:var(--summer-secondary);
+    color: var(--summer-brand);
+}
+
+/* Summer Fifth Section */
+
+.summer-fifth-sec {
+    background-color:var(--summer-primary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+.summer-fifth-sec .footer .summer-btn1 {
+    margin-right: 1rem;
+}
+
+.summer-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+/* =================
+    Fall Styles
+================= */ 
+.nav-fall{
+    background-color: var(--fall-primary);
+}
+
+.fall-active {
+    color: var(--fall-accent);
+}
+
+.fall-btn1 {
+    background-color: var(--fall-accent);
+    border: 2px solid var(--fall-accent);
+    color: white; 
+}
+
+.fall-btn1:hover {
+    border: 2px solid var(--fall-accent);
+    color: var(--fall-accent);
+}
+
+.fall-btn2 {
+    border: 2px solid var(--fall-accent);
+    color: var(--fall-accent);
+}
+
+.fall-btn2:hover{
+    background-color: var(--fall-accent);
+    color: white;
+}
+
+/* Fall First Section */
+
+.fall-first-sec {
+    background-color: var(--fall-primary);
+    color: var(--fall-brand);
+    position: relative;
+}
+
+#fall-fsec-img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#fall-fsec-img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#fall-fsec-img3 {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    z-index: 100;
+}
+
+#fall-fsec-img4 {
+    position: absolute;
+    bottom:-15%;
+    right: 0%;
+    z-index: 100;
+}
+
+#fall-fsec-img1, #fall-fsec-img2 {
+    max-width: 350px;
+}
+
+#fall-fsec-img3, #fall-fsec-img4 {
+    max-width: 400px;
+}
+
+/* Fall Second Section */
+
+.fall-second-sec {
+    background-color: var(--fall-secondary);
+    color: var(--fall-primary);
+    position: relative;
+}
+
+.fall-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.fall-second-sec p {
+    text-align: left;
+}
+
+#fall-ssec-img1 {
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+    z-index: 100;
+}
+
+#fall-ssec-img2 {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    z-index: 100;
+}
+
+#fall-ssec-img1, #fall-ssec-img2 {
+    max-width: 400px;
+}
+
+#fall-ssec-thumbnail-sec img {
+    max-width: 150px;
+}
+
+/* Fall Third Section */
+
+.fall-third-sec {
+    background-color: var(--fall-primary);
+    color: var(--fall-brand);
+}
+
+/* Fall Fourth Section */
+
+.fall-fourth-sec {
+    background-color: var(--fall-secondary);
+    color: var(--fall-primary);
+    position: relative;
+}
+
+#fall-frsec-img1 {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    z-index: 0;
+    max-width: 350px;
+}
+
+/* Fall Fifth Section */
+
+.fall-fifth-sec {
+    background-color:var(--fall-primary);
+    color: var(--fall-brand);
+    position: relative;
+}
+
+.fall-fifth-sec .footer .fall-btn1 {
+    margin-right: 1rem;
+}
+
+.fall-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+/* =================
+    Winter Styles
+================= */ 
+.nav-winter{
+    background-color: var(--winter-primary);
+}
+
+.winter-active {
+    color: var(--winter-accent);
+}
+
+.winter-btn1 {
+    background-color: var(--winter-accent);
+    border: 2px solid var(--winter-accent);
+    color: white; 
+}
+
+.winter-btn1:hover {
+    border: 2px solid var(--winter-accent);
+    color: var(--winter-accent);
+}
+
+.winter-btn2 {
+    border: 2px solid var(--winter-accent);
+    color: var(--winter-accent);
+}
+
+.winter-btn2:hover{
+    background-color: var(--winter-accent);
+    color: white;
+}
+
+/* winter First Section */
+
+.winter-first-sec {
+    background-color: var(--winter-primary);
+    color: var(--winter-brand);
+    position: relative;
+}
+
+#winter-fsec-img1 {
+    position: absolute;
+    top: 0;
+    left: -4%;
+    z-index: 1000;
+}
+
+#winter-fsec-img2 {
+    position: absolute;
+    top: 0;
+    right: -4%;
+    z-index: 1000;
+}
+
+#winter-fsec-img3 {
+    position: absolute;
+    bottom: -10%;
+    left: 5%;
+    z-index: 100;
+}
+
+#winter-fsec-img4 {
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    z-index: 100;
+}
+
+#winter-fsec-img1, #winter-fsec-img2 {
+    max-width: 350px;
+}
+
+#winter-fsec-img3, #winter-fsec-img4 {
+    max-width: 250px;
+}
+
+/* winter Second Section */
+
+.winter-second-sec {
+    background-color: var(--winter-secondary);
+    color: var(--winter-primary);
+    position: relative;
+}
+
+.winter-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.winter-second-sec p {
+    text-align: left;
+}
+
+#winter-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
+}
+
+#winter-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
+}
+
+#winter-ssec-img1, #winter-ssec-img2 {
+    max-width: 200px;
+}
+
+#winter-ssec-thumbnail-sec img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+#winter-ssec-thumbnail-sec p {
+    margin-top: 1rem;
+}
+
+/* winter Third Section */
+
+.winter-third-sec {
+    background-color: var(--winter-primary);
+    color: var(--winter-brand);
+}
+
+/* winter Fourth Section */
+
+.winter-fourth-sec {
+    background-color: var(--winter-secondary);
+    color: var(--winter-primary);
+    position: relative;
+}
+
+#winter-frsec-img1 {
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    z-index: 0;
+}
+
+/* winter Fifth Section */
+
+.winter-fifth-sec {
+    background-color:var(--winter-primary);
+    color: var(--winter-brand);
+    position: relative;
+}
+
+.winter-fifth-sec .footer .winter-btn1 {
+    margin-right: 1rem;
+}
+
+.winter-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
