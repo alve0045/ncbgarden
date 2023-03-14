@@ -534,16 +534,20 @@ nav ul li {
 
 #fall-ssec-img1 {
     position: absolute;
-    bottom: -5%;
-    left: 0;
+    bottom: -10%;
+    left: -10%;
     z-index: 100;
 }
 
 #fall-ssec-img2 {
     position: absolute;
-    bottom: -5%;
-    right: 0;
+    bottom: -10%;
+    right: -10%;
     z-index: 100;
+}
+
+#fall-ssec-img1, #fall-ssec-img2 {
+    max-width: 400px;
 }
 
 #fall-ssec-thumbnail-sec img {
