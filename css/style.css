@@ -2,6 +2,8 @@
     Fonts
 ============ */   
 
+/* Headings: Petrona, Body: Lato */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Petrona:wght@400;700&display=swap');
 
 /* ================
@@ -13,10 +15,20 @@
     --spring-accent:#FF2E71;
     --spring-secondary: #FFF7BD;
 
-    --summer-brand: #007935;
-    --summer-primary: #FEFFE4;
-    --summer-accent:#FF2E71;
-    --summer-secondary: #FFF7BD;
+    --summer-brand: #025F38;
+    --summer-primary: #FFFDCB;
+    --summer-accent:#F55800;
+    --summer-secondary: #CCE436;
+
+    --fall-brand: #283618;
+    --fall-primary: #FFF7F2;
+    --fall-accent:#C44536;
+    --fall-secondary: #606C38;
+
+    --winter-brand: #113B7B;
+    --winter-primary: #F4F7FF;
+    --winter-accent:#C55DF6;
+    --winter-secondary: #354E71;    
 }
 
 /* =================
