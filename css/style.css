@@ -68,8 +68,16 @@ button {
     padding: 5rem;
 }
 
+.landing-sec {
+    height: 450px;
+}
+
 .section img {
     max-width: 450px;
+}
+
+.custom-thumbnail {
+    margin-bottom: 1rem;
 }
 
 .footer {   
@@ -95,10 +103,6 @@ span .references {
     padding-top: 1rem;
 } 
 
-nav {
-    background-color: var(--spring-primary);
-}
-
 .navbar-brand {
     padding: 0 2rem;
 }
@@ -122,6 +126,9 @@ nav ul li {
 /* =================
     Spring Styles
 ================= */ 
+.nav-spring{
+    background-color: var(--spring-primary);
+}
 
 .spring-active {
     color: var(--spring-accent);
@@ -206,10 +213,6 @@ nav ul li {
     max-width: 230px;
 }
 
-.spring-thumbnail {
-    max-width: 80px;
-}
-
 /* Spring Second Section */
 
 .spring-second-sec {
@@ -289,3 +292,142 @@ nav ul li {
 /* =================
     Summer Styles
 ================= */ 
+
+.nav-summer{
+    background-color: var(--summer-primary);
+}
+
+.summer-active {
+    color: var(--summer-accent);
+}
+
+.summer-btn1 {
+    background-color: var(--summer-accent);
+    border: 2px solid var(--summer-accent);
+    color: white; 
+}
+
+.summer-btn1:hover {
+    border: 2px solid var(--summer-accent);
+    color: var(--summer-accent);
+}
+
+.summer-btn2 {
+    border: 2px solid var(--summer-accent);
+    color: var(--summer-accent);
+}
+
+.summer-btn2:hover{
+    background-color: var(--summer-accent);
+    color: white;
+}
+
+/* Summer First Section */
+
+.summer-first-sec {
+    background-color: var(--summer-primary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+#summer-fsec-img1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#summer-fsec-img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#summer-fsec-img3 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 100;
+}
+
+#summer-fsec-img4 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 100;
+}
+
+#summer-fsec-img1, #summer-fsec-img2, #summer-fsec-img5, #summer-fsec-img6 {
+    max-width: 250px;
+}
+
+/* Summer Second Section */
+
+.summer-second-sec {
+    background-color: var(--summer-secondary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+.summer-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.summer-second-sec p {
+    text-align: left;
+}
+
+#summer-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
+}
+
+#summer-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
+}
+
+#summer-ssec-img1, #summer-ssec-img2 {
+    max-width: 300px;
+}
+
+/* Summer Third Section */
+
+.summer-third-sec {
+    background-color: var(--summer-primary);
+    color: var(--summer-brand);
+}
+
+/* Summer Fourth Section */
+
+.summer-fourth-sec {
+    background-color:var(--summer-secondary);
+    color: var(--summer-brand);
+}
+
+/* Summer Fifth Section */
+
+.summer-fifth-sec {
+    background-color:var(--summer-primary);
+    color: var(--summer-brand);
+    position: relative;
+}
+
+.summer-fifth-sec .footer .summer-btn1 {
+    margin-right: 1rem;
+}
+
+.summer-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.summer-fifth-sec .footer-sec2 img{
+    max-width: 60px;
+}
