@@ -87,13 +87,14 @@ button {
     margin-bottom: 0;
 }
 
+.footer-brand {
+    margin-bottom: 1rem;
+}
+
 span .references {
     /* padding: 2rem 0 0 0; */
     margin-top: 4rem !important;
 }
-
-
-
 
 /* =================
     Navigation
@@ -288,10 +289,6 @@ nav ul li {
     left: 10%;
 }
 
-.spring-fifth-sec .footer-sec2 img{
-    max-width: 60px;
-}
-
 
 /* =================
     Summer Styles
@@ -434,10 +431,6 @@ nav ul li {
     position: absolute;
     bottom: 0;
     left: 10%;
-}
-
-.summer-fifth-sec .footer-sec2 img{
-    max-width: 60px;
 }
 
 /* =================
@@ -595,6 +588,156 @@ nav ul li {
     left: 10%;
 }
 
-.fall-fifth-sec .footer-sec2 img{
-    max-width: 60px;
+/* =================
+    Winter Styles
+================= */ 
+.nav-winter{
+    background-color: var(--winter-primary);
+}
+
+.winter-active {
+    color: var(--winter-accent);
+}
+
+.winter-btn1 {
+    background-color: var(--winter-accent);
+    border: 2px solid var(--winter-accent);
+    color: white; 
+}
+
+.winter-btn1:hover {
+    border: 2px solid var(--winter-accent);
+    color: var(--winter-accent);
+}
+
+.winter-btn2 {
+    border: 2px solid var(--winter-accent);
+    color: var(--winter-accent);
+}
+
+.winter-btn2:hover{
+    background-color: var(--winter-accent);
+    color: white;
+}
+
+/* winter First Section */
+
+.winter-first-sec {
+    background-color: var(--winter-primary);
+    color: var(--winter-brand);
+    position: relative;
+}
+
+#winter-fsec-img1 {
+    position: absolute;
+    top: 0;
+    left: -4%;
+    z-index: 1000;
+}
+
+#winter-fsec-img2 {
+    position: absolute;
+    top: 0;
+    right: -4%;
+    z-index: 1000;
+}
+
+#winter-fsec-img3 {
+    position: absolute;
+    bottom: -10%;
+    left: 5%;
+    z-index: 100;
+}
+
+#winter-fsec-img4 {
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    z-index: 100;
+}
+
+#winter-fsec-img1, #winter-fsec-img2 {
+    max-width: 350px;
+}
+
+#winter-fsec-img3, #winter-fsec-img4 {
+    max-width: 250px;
+}
+
+/* winter Second Section */
+
+.winter-second-sec {
+    background-color: var(--winter-secondary);
+    color: var(--winter-primary);
+    position: relative;
+}
+
+.winter-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.winter-second-sec p {
+    text-align: left;
+}
+
+#winter-ssec-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: 100;
+}
+
+#winter-ssec-img2 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    z-index: 100;
+}
+
+#winter-ssec-img1, #winter-ssec-img2 {
+    max-width: 200px;
+}
+
+#winter-ssec-thumbnail-sec img {
+    max-width: 200px;
+}
+
+/* winter Third Section */
+
+.winter-third-sec {
+    background-color: var(--winter-primary);
+    color: var(--winter-brand);
+}
+
+/* winter Fourth Section */
+
+.winter-fourth-sec {
+    background-color: var(--winter-secondary);
+    color: var(--winter-primary);
+    position: relative;
+}
+
+#winter-frsec-img1 {
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    z-index: 0;
+}
+
+/* winter Fifth Section */
+
+.winter-fifth-sec {
+    background-color:var(--winter-primary);
+    color: var(--winter-brand);
+    position: relative;
+}
+
+.winter-fifth-sec .footer .winter-btn1 {
+    margin-right: 1rem;
+}
+
+.winter-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
