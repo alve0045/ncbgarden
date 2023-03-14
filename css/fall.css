@@ -1,0 +1,155 @@
+
+/* =================
+    Fall Styles
+================= */ 
+.nav-fall{
+    background-color: var(--fall-primary);
+}
+
+.fall-active {
+    color: var(--fall-accent);
+}
+
+.fall-btn1 {
+    background-color: var(--fall-accent);
+    border: 2px solid var(--fall-accent);
+    color: white; 
+}
+
+.fall-btn1:hover {
+    border: 2px solid var(--fall-accent);
+    color: var(--fall-accent);
+}
+
+.fall-btn2 {
+    border: 2px solid var(--fall-accent);
+    color: var(--fall-accent);
+}
+
+.fall-btn2:hover{
+    background-color: var(--fall-accent);
+    color: white;
+}
+
+/* Fall First Section */
+
+.fall-first-sec {
+    background-color: var(--fall-primary);
+    color: var(--fall-brand);
+    position: relative;
+}
+
+#fall-fsec-img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#fall-fsec-img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#fall-fsec-img3 {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    z-index: 100;
+}
+
+#fall-fsec-img4 {
+    position: absolute;
+    bottom:-15%;
+    right: 0%;
+    z-index: 100;
+}
+
+#fall-fsec-img1, #fall-fsec-img2 {
+    max-width: 350px;
+}
+
+#fall-fsec-img3, #fall-fsec-img4 {
+    max-width: 400px;
+}
+
+/* Fall Second Section */
+
+.fall-second-sec {
+    background-color: var(--fall-secondary);
+    color: var(--fall-primary);
+    position: relative;
+}
+
+.fall-second-sec h3 {
+    padding: 1rem 0;
+}
+
+.fall-second-sec p {
+    text-align: left;
+}
+
+#fall-ssec-img1 {
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+    z-index: 100;
+}
+
+#fall-ssec-img2 {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    z-index: 100;
+}
+
+#fall-ssec-img1, #fall-ssec-img2 {
+    max-width: 400px;
+}
+
+#fall-ssec-thumbnail-sec img {
+    max-width: 150px;
+}
+
+/* Fall Third Section */
+
+.fall-third-sec {
+    background-color: var(--fall-primary);
+    color: var(--fall-brand);
+}
+
+/* Fall Fourth Section */
+
+.fall-fourth-sec {
+    background-color: var(--fall-secondary);
+    color: var(--fall-primary);
+    position: relative;
+}
+
+#fall-frsec-img1 {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    z-index: 0;
+    max-width: 350px;
+}
+
+/* Fall Fifth Section */
+
+.fall-fifth-sec {
+    background-color:var(--fall-primary);
+    color: var(--fall-brand);
+    position: relative;
+}
+
+.fall-fifth-sec .footer .fall-btn1 {
+    margin-right: 1rem;
+}
+
+.fall-fifth-sec .footer-sec1 img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
