@@ -41,38 +41,42 @@
 
 #winter-fsec-img1 {
     position: absolute;
-    top: 0;
-    left: -4%;
+    bottom: 0;
+    left: 0;
     z-index: 1000;
 }
 
 #winter-fsec-img2 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     position: absolute;
-    top: 0;
-    right: -4%;
+    bottom: 0;
+    right: 0;
     z-index: 1000;
 }
 
 #winter-fsec-img3 {
     position: absolute;
-    bottom: -10%;
-    left: 5%;
+    bottom: 0;
+    left: 20%;
     z-index: 100;
 }
 
 #winter-fsec-img4 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     position: absolute;
-    bottom: -10%;
-    right: 5%;
+    bottom:0;
+    right: 20%;
     z-index: 100;
 }
 
 #winter-fsec-img1, #winter-fsec-img2 {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 #winter-fsec-img3, #winter-fsec-img4 {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 /* winter Second Section */
@@ -93,14 +97,16 @@
 
 #winter-ssec-img1 {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     left: 0;
     z-index: 100;
 }
 
 #winter-ssec-img2 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     right: 0;
     z-index: 100;
 }
@@ -135,7 +141,7 @@
 
 #winter-frsec-img1 {
     position: absolute;
-    bottom: -30%;
+    bottom: 0;
     right: 0;
     z-index: 0;
 }
