@@ -41,38 +41,42 @@
 
 #fall-fsec-img1 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 1000;
 }
 
 #fall-fsec-img2 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: 1000;
 }
 
 #fall-fsec-img3 {
     position: absolute;
-    bottom: -15%;
-    left: 0;
+    bottom: 0;
+    left: 20%;
     z-index: 100;
 }
 
 #fall-fsec-img4 {
+    transform: scaleX(-1);
     position: absolute;
-    bottom:-15%;
-    right: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
     z-index: 100;
 }
 
 #fall-fsec-img1, #fall-fsec-img2 {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 #fall-fsec-img3, #fall-fsec-img4 {
-    max-width: 400px;
+    max-width: 300px;
 }
 
 /* Fall Second Section */
@@ -153,3 +157,14 @@
     bottom: 0;
     left: 10%;
 }
+
+/* =================
+    Media Queries
+================= */ 
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 575.98px) {  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {  }
+
+
