@@ -31,9 +31,16 @@
     color: white;
 }
 
-/* winter First Section */
+#winter-first-sec img, #winter-second-sec img, 
+#winter-third-sec img, #winter-fourth-sec img, 
+#winter-fifth-sec img{
+    padding: 0;
+    margin:0;
+}
 
-.winter-first-sec {
+/* Winter First Section */
+
+#winter-first-sec {
     background-color: var(--winter-primary);
     color: var(--winter-brand);
     position: relative;
@@ -81,17 +88,17 @@
 
 /* winter Second Section */
 
-.winter-second-sec {
+#winter-second-sec {
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
 }
 
-.winter-second-sec h3 {
+#winter-second-sec h3 {
     padding: 1rem 0;
 }
 
-.winter-second-sec p {
+#winter-second-sec p {
     text-align: left;
 }
 
@@ -126,14 +133,14 @@
 
 /* winter Third Section */
 
-.winter-third-sec {
+#winter-third-sec {
     background-color: var(--winter-primary);
     color: var(--winter-brand);
 }
 
 /* winter Fourth Section */
 
-.winter-fourth-sec {
+#winter-fourth-sec {
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
@@ -148,17 +155,17 @@
 
 /* winter Fifth Section */
 
-.winter-fifth-sec {
+#winter-fifth-sec {
     background-color:var(--winter-primary);
     color: var(--winter-brand);
     position: relative;
 }
 
-.winter-fifth-sec .footer .winter-btn1 {
+#winter-fifth-sec .footer .winter-btn1 {
     margin-right: 1rem;
 }
 
-.winter-fifth-sec .footer-sec1 img {
+#winter-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
     left: 0;

@@ -77,19 +77,17 @@ button {
 }
 
 .custom-thumbnail {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer {   
     text-align: right;
     padding-top: 5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 .footer-brand {
-    margin-bottom: 1rem;
-}
+    padding-bottom: 1rem;
+}    
 
 span .references {
     /* padding: 2rem 0 0 0; */
@@ -133,5 +131,3 @@ nav ul li {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  }
-
-input [type=text]

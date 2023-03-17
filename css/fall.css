@@ -31,9 +31,16 @@
     color: white;
 }
 
+#fall-first-sec img, #fall-second-sec img, 
+#fall-third-sec img, #fall-fourth-sec img, 
+#fall-fifth-sec img{
+    padding: 0;
+    margin:0;
+}
+
 /* Fall First Section */
 
-.fall-first-sec {
+#fall-first-sec {
     background-color: var(--fall-primary);
     color: var(--fall-brand);
     position: relative;
@@ -81,17 +88,17 @@
 
 /* Fall Second Section */
 
-.fall-second-sec {
+#fall-second-sec {
     background-color: var(--fall-secondary);
     color: var(--fall-primary);
     position: relative;
 }
 
-.fall-second-sec h3 {
+#fall-second-sec h3 {
     padding: 1rem 0;
 }
 
-.fall-second-sec p {
+#fall-second-sec p {
     text-align: left;
 }
 
@@ -119,14 +126,14 @@
 
 /* Fall Third Section */
 
-.fall-third-sec {
+#fall-third-sec {
     background-color: var(--fall-primary);
     color: var(--fall-brand);
 }
 
 /* Fall Fourth Section */
 
-.fall-fourth-sec {
+#fall-fourth-sec {
     background-color: var(--fall-secondary);
     color: var(--fall-primary);
     position: relative;
@@ -141,17 +148,17 @@
 
 /* Fall Fifth Section */
 
-.fall-fifth-sec {
+#fall-fifth-sec {
     background-color:var(--fall-primary);
     color: var(--fall-brand);
     position: relative;
 }
 
-.fall-fifth-sec .footer .fall-btn1 {
+#fall-fifth-sec .footer .fall-btn1 {
     margin-right: 1rem;
 }
 
-.fall-fifth-sec .footer-sec1 img {
+#fall-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
     left: 10%;
