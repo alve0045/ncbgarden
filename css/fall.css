@@ -2,6 +2,9 @@
 /* =================
     Fall Styles
 ================= */ 
+
+/* Fall Navigation */
+
 .nav-fall{
     background-color: var(--fall-primary);
 }
@@ -10,26 +13,69 @@
     color: var(--fall-accent);
 }
 
-.fall-btn1 {
+/* Fall Button 01 */
+
+#fall-btn1 {
     background-color: var(--fall-accent);
-    border: 2px solid var(--fall-accent);
-    color: white; 
+    border: 2px solid var(--fall-accent); 
 }
 
-.fall-btn1:hover {
-    border: 2px solid var(--fall-accent);
-    color: var(--fall-accent);
-}
-
-.fall-btn2 {
-    border: 2px solid var(--fall-accent);
-    color: var(--fall-accent);
-}
-
-.fall-btn2:hover{
-    background-color: var(--fall-accent);
+#fall-btn1 a {
+    text-decoration: none;
     color: white;
 }
+
+#fall-btn1:hover {
+    border: 2px solid var(--fall-accent);  
+    background-color: var(--fall-primary);
+}
+
+#fall-btn1:hover a {
+    color: var(--fall-accent);
+}
+
+/* Fall Button 02 */
+
+#fall-btn2 {
+    background-color: var(--fall-brand);
+    border: 2px solid var(--fall-brand); 
+}
+
+#fall-btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#fall-btn2:hover {
+    border: 2px solid var(--fall-brand);  
+    background-color: var(--fall-primary);
+}
+
+#fall-btn2:hover a {
+    color: var(--summer-brand);
+}
+
+/* Fall Button 03 */
+
+#fall-btn3 {
+    border: 2px solid var(--fall-accent);   
+    background-color: var(--fall-primary);
+}
+
+#fall-btn3 a {
+    text-decoration: none;
+    color: var(--fall-accent);
+}
+
+#fall-btn3:hover{
+    background-color: var(--fall-accent);
+}
+
+#fall-btn3:hover a{
+    color: white;
+}
+
+/* Fall Images */
 
 #fall-first-sec img, #fall-second-sec img, 
 #fall-third-sec img, #fall-fourth-sec img, 

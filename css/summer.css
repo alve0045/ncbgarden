@@ -3,6 +3,8 @@
     Summer Styles
 ================= */ 
 
+/* Summer Navigation */
+
 .nav-summer{
     background-color: var(--summer-primary);
 }
@@ -11,26 +13,69 @@
     color: var(--summer-accent);
 }
 
-.summer-btn1 {
+/* Summer Button 01 */
+
+#summer-btn1 {
     background-color: var(--summer-accent);
-    border: 2px solid var(--summer-accent);
-    color: white; 
+    border: 2px solid var(--summer-accent); 
 }
 
-.summer-btn1:hover {
-    border: 2px solid var(--summer-accent);
-    color: var(--summer-accent);
-}
-
-.summer-btn2 {
-    border: 2px solid var(--summer-accent);
-    color: var(--summer-accent);
-}
-
-.summer-btn2:hover{
-    background-color: var(--summer-accent);
+#summer-btn1 a {
+    text-decoration: none;
     color: white;
 }
+
+#summer-btn1:hover {
+    border: 2px solid var(--summer-accent);  
+    background-color: var(--summer-primary);
+}
+
+#summer-btn1:hover a {
+    color: var(--summer-accent);
+}
+
+/* Summer Button 02 */
+
+#summer-btn2 {
+    background-color: var(--summer-brand);
+    border: 2px solid var(--summer-brand); 
+}
+
+#summer-btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#summer-btn2:hover {
+    border: 2px solid var(--summer-brand);  
+    background-color: var(--summer-primary);
+}
+
+#summer-btn2:hover a {
+    color: var(--summer-brand);
+}
+
+/* Summer Button 03 */
+
+#summer-btn3 {
+    border: 2px solid var(--summer-accent);   
+    background-color: var(--summer-primary);
+}
+
+#summer-btn3 a {
+    text-decoration: none;
+    color: var(--summer-accent);
+}
+
+#summer-btn3:hover{
+    background-color: var(--summer-accent);
+}
+
+#summer-btn3:hover a{
+    color: white;
+}
+
+/* Summer Images */
 
 #summer-first-sec img, #summer-second-sec img, 
 #summer-third-sec img, #summer-fourth-sec img, 

@@ -1,7 +1,9 @@
 
 /* =================
     Winter Styles
-================= */ 
+================= */
+
+/* Winter Navigation */
 .nav-winter{
     background-color: var(--winter-primary);
 }
@@ -10,26 +12,69 @@
     color: var(--winter-accent);
 }
 
-.winter-btn1 {
+/* Winter Button 01 */
+
+#winter-btn1 {
     background-color: var(--winter-accent);
-    border: 2px solid var(--winter-accent);
-    color: white; 
+    border: 2px solid var(--winter-accent); 
 }
 
-.winter-btn1:hover {
-    border: 2px solid var(--winter-accent);
-    color: var(--winter-accent);
-}
-
-.winter-btn2 {
-    border: 2px solid var(--winter-accent);
-    color: var(--winter-accent);
-}
-
-.winter-btn2:hover{
-    background-color: var(--winter-accent);
+#winter-btn1 a {
+    text-decoration: none;
     color: white;
 }
+
+#winter-btn1:hover {
+    border: 2px solid var(--winter-accent);  
+    background-color: var(--winter-primary);
+}
+
+#winter-btn1:hover a {
+    color: var(--winter-accent);
+}
+
+/* Winter Button 02 */
+
+#winter-btn2 {
+    background-color: var(--winter-brand);
+    border: 2px solid var(--winter-brand); 
+}
+
+#winter-btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#winter-btn2:hover {
+    border: 2px solid var(--winter-brand);  
+    background-color: var(--winter-primary);
+}
+
+#winter-btn2:hover a {
+    color: var(--winter-brand);
+}
+
+/* Winter Button 03 */
+
+#winter-btn3 {
+    border: 2px solid var(--winter-accent);   
+    background-color: var(--winter-primary);
+}
+
+#winter-btn3 a {
+    text-decoration: none;
+    color: var(--winter-accent);
+}
+
+#winter-btn3:hover{
+    background-color: var(--winter-accent);
+}
+
+#winter-btn3:hover a{
+    color: white;
+}
+
+/* Winter Images */
 
 #winter-first-sec img, #winter-second-sec img, 
 #winter-third-sec img, #winter-fourth-sec img, 

@@ -1,6 +1,8 @@
 /* =================
     Spring Styles
 ================= */ 
+
+/* Spring Navigation */
 .nav-spring{
     background-color: var(--spring-primary);
 }
@@ -9,26 +11,69 @@
     color: var(--spring-accent);
 }
 
-.spring-btn1 {
+/* Spring Button 01 */
+
+#spring-btn1 {
     background-color: var(--spring-accent);
-    border: 2px solid var(--spring-accent);
-    color: white; 
+    border: 2px solid var(--spring-accent); 
 }
 
-.spring-btn1:hover {
-    border: 2px solid var(--spring-accent);
-    color: var(--spring-accent);
-}
-
-.spring-btn2 {
-    border: 2px solid var(--spring-accent);
-    color: var(--spring-accent);
-}
-
-.spring-btn2:hover{
-    background-color: var(--spring-accent);
+#spring-btn1 a {
+    text-decoration: none;
     color: white;
 }
+
+#spring-btn1:hover {
+    border: 2px solid var(--spring-accent);  
+    background-color: var(--spring-primary);
+}
+
+#spring-btn1:hover a {
+    color: var(--spring-accent);
+}
+
+/* Spring Button 02 */
+
+#spring-btn2 {
+    background-color: var(--spring-brand);
+    border: 2px solid var(--spring-brand); 
+}
+
+#spring-btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#spring-btn2:hover {
+    border: 2px solid var(--spring-brand);  
+    background-color: var(--spring-primary);
+}
+
+#spring-btn2:hover a {
+    color: var(--summer-brand);
+}
+
+/* Spring Button 03 */
+
+#spring-btn3 {
+    border: 2px solid var(--spring-accent);   
+    background-color: var(--spring-primary);
+}
+
+#spring-btn3 a {
+    text-decoration: none;
+    color: var(--spring-accent);
+}
+
+#spring-btn3:hover{
+    background-color: var(--spring-accent);
+}
+
+#spring-btn3:hover a{
+    color: white;
+}
+
+/* Spring Images */
 
 #spring-first-sec img, #spring-second-sec img, 
 #spring-third-sec img, #spring-fourth-sec img, 
@@ -159,7 +204,6 @@
     background-color:var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
-    padding-bottom: 0;
 }
 
 #spring-fifth-sec .footer .spring-btn1 {
