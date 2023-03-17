@@ -4,7 +4,7 @@
 
 /* Headings: Petrona, Body: Lato */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Petrona:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Petrona:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
 /* ================
     Color Palette
@@ -78,19 +78,17 @@ button {
 }
 
 .custom-thumbnail {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer {   
     text-align: right;
     padding-top: 5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 .footer-brand {
-    margin-bottom: 1rem;
-}
+    padding-bottom: 1rem;
+}    
 
 span .references {
     /* padding: 2rem 0 0 0; */
@@ -168,3 +166,52 @@ input[type=text] {
  }
 
 
+/* =================
+    Form Page
+================= */ 
+
+.section1-form, .section2-form {
+    padding: 6rem 2rem;
+}
+
+.section2-form label {
+    color: var(--spring-brand);
+    font-weight: 700;
+}
+
+.section1-form h1 {
+    color: var(--spring-brand);
+    font-weight: 600;
+}
+
+.box-form {
+    padding: 1rem 1rem;
+
+}
+
+input[type=text] {
+    border-color: var(--spring-brand);
+    border-width: 0.1rem;
+}
+
+/* =================
+    Media Queries
+================= */ 
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .section1-form, .section2-form {
+        padding: 1.5rem 2rem;
+
+    }
+
+ }
+
+
+/* =================
+    Media Queries
+================= */ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }

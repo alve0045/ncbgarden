@@ -32,9 +32,16 @@
     color: white;
 }
 
+#summer-first-sec img, #summer-second-sec img, 
+#summer-third-sec img, #summer-fourth-sec img, 
+#summer-fifth-sec img{
+    padding: 0;
+    margin:0;
+}
+
 /* Summer First Section */
 
-.summer-first-sec {
+#summer-first-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
     position: relative;
@@ -74,17 +81,17 @@
 
 /* Summer Second Section */
 
-.summer-second-sec {
+#summer-second-sec {
     background-color: var(--summer-secondary);
     color: var(--summer-brand);
     position: relative;
 }
 
-.summer-second-sec h3 {
+#summer-second-sec h3 {
     padding: 1rem 0;
 }
 
-.summer-second-sec p {
+#summer-second-sec p {
     text-align: left;
 }
 
@@ -112,32 +119,42 @@
 
 /* Summer Third Section */
 
-.summer-third-sec {
+#summer-third-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
 }
 
 /* Summer Fourth Section */
 
-.summer-fourth-sec {
+#summer-fourth-sec {
     background-color:var(--summer-secondary);
     color: var(--summer-brand);
 }
 
 /* Summer Fifth Section */
 
-.summer-fifth-sec {
+#summer-fifth-sec {
     background-color:var(--summer-primary);
     color: var(--summer-brand);
     position: relative;
 }
 
-.summer-fifth-sec .footer .summer-btn1 {
+#summer-fifth-sec .footer .summer-btn1 {
     margin-right: 1rem;
 }
 
-.summer-fifth-sec .footer-sec1 img {
+#summer-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
     left: 10%;
 }
+
+/* =================
+    Media Queries
+================= */ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }

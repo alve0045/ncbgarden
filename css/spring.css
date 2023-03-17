@@ -30,9 +30,17 @@
     color: white;
 }
 
+#spring-first-sec img, #spring-second-sec img, 
+#spring-third-sec img, #spring-fourth-sec img, 
+#spring-fifth-sec img{
+    padding: 0;
+    margin:0;
+}
+
+
 /* Spring First Section */
 
-.spring-first-sec {
+#spring-first-sec {
     background-color: var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
@@ -90,17 +98,17 @@
 
 /* Spring Second Section */
 
-.spring-second-sec {
+#spring-second-sec {
     background-color: var(--spring-brand);
     color: var(--spring-secondary);
     position: relative;
 }
 
-.spring-second-sec h3 {
+#spring-second-sec h3 {
     padding: 1rem 0;
 }
 
-.spring-second-sec p {
+#spring-second-sec p {
     text-align: left;
 }
 
@@ -124,14 +132,14 @@
 
 /* Spring Third Section */
 
-.spring-third-sec {
+#spring-third-sec {
     background-color: var(--spring-primary);
     color: var(--spring-brand);
 }
 
 /* Spring Fourth Section */
 
-.spring-fourth-sec {
+#spring-fourth-sec {
     background-color:var(--spring-brand);
     color: var(--spring-secondary);
     position: relative;
@@ -147,18 +155,29 @@
 
 /* Spring Fifth Section */
 
-.spring-fifth-sec {
+#spring-fifth-sec {
     background-color:var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
+    padding-bottom: 0;
 }
 
-.spring-fifth-sec .footer .spring-btn1 {
+#spring-fifth-sec .footer .spring-btn1 {
     margin-right: 1rem;
 }
 
-.spring-fifth-sec .footer-sec1 img {
+#spring-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
     left: 10%;
 }
+
+/* =================
+    Media Queries
+================= */ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
