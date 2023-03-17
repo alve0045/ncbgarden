@@ -182,7 +182,24 @@ input[type=text] {
 
 .section1-form h1 {
     color: var(--spring-brand);
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.section1-form p {
+    color: var(--spring-brand);
+    font-size: 1.3rem;
+}
+
+.section1-form img {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.section1-form a {
+    color: var(--spring-brand);
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .box-form {
@@ -192,7 +209,29 @@ input[type=text] {
 
 input[type=text] {
     border-color: var(--spring-brand);
-    border-width: 0.1rem;
+    border-width: 0.05rem;
+}
+
+.box-form textarea {
+    border-color: var(--spring-brand);
+    border-width: 0.05rem;
+}
+
+#form-btn {
+    background-color: var(--spring-accent);
+    border: 2px solid var(--spring-accent); 
+    color: #fff;
+}
+
+#form-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#form-btn:hover {
+    border: 2px solid var(--spring-accent);  
+    background-color: var(--spring-primary);
+    color: var(--spring-accent);
 }
 
 /* =================
