@@ -40,6 +40,7 @@ body {
     height: auto;
     font-family: 'Lato', sans-serif;
     padding: 0;
+    background-color: var(--spring-primary) ;
 }
 
 h1, h2, h3, h4, h5 {
@@ -123,4 +124,47 @@ nav ul li {
 .nav-link .active a{
     color: var(--spring-accent);
 }
+
+/* =================
+    Form Page
+================= */ 
+
+.section1-form, .section2-form {
+    padding: 6rem 2rem;
+}
+
+.section2-form label {
+    color: var(--spring-brand);
+    font-weight: 700;
+}
+
+.section1-form h1 {
+    color: var(--spring-brand);
+    font-weight: 600;
+}
+
+.box-form {
+    padding: 1rem 1rem;
+
+}
+
+input[type=text] {
+    border-color: var(--spring-brand);
+    border-width: 0.1rem;
+}
+
+/* =================
+    Media Queries
+================= */ 
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .section1-form, .section2-form {
+        padding: 1.5rem 2rem;
+
+    }
+
+ }
+
 
