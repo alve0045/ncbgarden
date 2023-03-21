@@ -20,32 +20,150 @@
 <!-- END/ Header Tag -->
 
 <body>
+    <img src="assets/logo.png" alt="NCBGarden logo">
     <div class="index-h">
-        <h1 class="index-h1">Welcome to some <br> year-round activities <br> to help nature</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Brought to you by <a href="http://ncbgarden.ca/">NCBGarden</a></p>
+        <h1 class="index-h1">Welcome to some year-round activities to help nature</h1>
+        <p class="index-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong><em>Brought to you by <a href="http://ncbgarden.ca/">NCBGarden</em></strong></a></p>
     </div>
 
     <div class="index-nav">
-        <nav id="index-nav">
-            <ul>
-                <li><a href="pages/spring.html">Spring</a></li>
-                <li><a href="pages/summer.html">Summer</a></li>
-                <li><a href="pages/fall.html">Fall</a></li>
-                <li><a href="pages/winter.html">Winter</a></li>
+        <nav>
+            <ul class="s-nav">
+                <li>
+                    <a href="pages/spring.html" id="spring">
+                        <img src="assets/spring-icon-white.png">
+                        <strong>Spring</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/summer.html" id="summer">
+                        <img src="assets/summer-icon-green.png">
+                        <strong>Summer</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/fall.html" id="fall">
+                        <img src="assets/fall-icon-white.png">
+                        <strong>Fall</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/winter.html" id="winter">
+                        <img src="assets/winter-icon-white.png">
+                        <strong>Winter</strong>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
 
+    <p id="instr"><strong>Click a button to explore the different ways to <br>contribute to nature during each season.</strong></p>
+
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Petrona:wght@400;700&display=swap');
+        img {
+            width: 5.65rem;
+            padding-bottom: 2.5rem;
+        }
         body {
-            padding: 8rem 2rem 3rem 2rem;
+            padding: 6.5rem 6rem 7rem 6rem;
             background-color: #FEFFE4;
+            background-image: url("assets/logo-transparent.png");
+            background-repeat: no-repeat;
+            background-position: top 13rem center;
+            background-size: 92rem;
         }
         .index-h {
+            color: #007935;
             display: flex;
+            align-items: center;
         }
         .index-h1 {
-            font-size: 3rem;
+            font-size: 5.5rem;
+            line-height: 5.5rem;
+            border-right: 1px solid #007935;
+            padding-right: 4rem;
+            margin-right: 4rem;
+        }
+        .index-p {
+            font-size: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        .index-p a {
+            color: #007935;
+        }
+        .s-nav {
+            text-align: center;
+        }
+        .s-nav li {
+            list-style: none;
+            display: inline-block;
+            padding: 5rem 5rem 4.5rem 0;
+        }
+        .s-nav li a {
+            text-decoration: none;
+            font-family: Petrona;
+            font-size: 3.5rem;
+            color: #FEFFE4;
+            border-style: none;
+            border-radius: 0.5rem;
+            padding: 2rem 3.5rem 2rem 3.5rem;
+            margin: 0.25rem;
+        }
+        .s-nav li #spring {
+            background-color: #007935;
+            border: 0.25rem solid #007935;
+        }
+        .s-nav li #spring img {
+            width: 5.5rem;
+            padding-top: 1.75rem;
+            padding-right: 1rem;
+        }
+        .s-nav li #spring:hover {
+            color: #007935;
+            border: 0.25rem solid #007935;
+            background-color: transparent;
+            transition: 0.4s ease;
+        }
+
+        
+        .s-nav li #summer {
+            color: #025F38;
+            background-color: #CCE436;
+            border: 0.25rem solid #CCE436;
+        }
+        .s-nav li #summer img {
+            width: 5.5rem;
+            padding-top: 2rem;
+            padding-right: 1rem;
+        }
+        .s-nav li #summer:hover {
+            color: #025F38;
+            border: 0.25rem solid #025F38;
+            background-color: transparent;
+            transition: 0.4s ease;
+        }
+        .s-nav li #fall {
+            background-color: #C44536;
+        }
+        .s-nav li #fall img {
+            width: 5.5rem;
+            padding-top: 1.75rem;
+            padding-right: 1rem;
+        }
+        .s-nav li #winter {
+            background-color: #113B7B;
+        }
+        .s-nav li #winter img {
+            width: 4.5rem;
+            padding-top: 1.75rem;
+            padding-right: 1rem;
+        }
+        #instr {
+            font-size: 2rem;
+            text-align: center;
+            color: #007935;
+            line-height: 2.5rem;
         }
     </style>
 
