@@ -210,13 +210,42 @@
 #summer-third-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
+    padding-top: 8rem;
 }
+
+#summer-third-sec p {
+    padding-bottom: 1.5rem;
+}
+
+.image-section3 {
+    padding-left: 1.5rem;
+}
+
+.text-section3 {
+    margin-right: 2%;
+}
+
+.text-section3 a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
 
 /* Summer Fourth Section */
 
 #summer-fourth-sec {
     background-color:var(--summer-secondary);
     color: var(--summer-brand);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+#summer-fourth-sec p {
+    padding-bottom: 1.5rem;
+}
+
+.image-section4 {
+    padding-left: 10%;
 }
 
 /* Summer Fifth Section */
