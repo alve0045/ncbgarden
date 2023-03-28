@@ -2,12 +2,6 @@
     Spring Styles
 ================= */ 
 
-/* General Styles  */
-
-.section h2 {
-    font-size: 2.5rem;
-    font-weight: 800;
-}
 
 /* Spring Navigation */
 .nav-spring{
@@ -108,11 +102,6 @@
     padding-bottom: 0.5rem;
 }
 
-#spring-icon {
-    max-width: 5rem;
-    margin: 2rem;
-}
-
 #spring-fsec-img1 {
     position: absolute;
     bottom: -22%;
@@ -195,6 +184,7 @@
 
 #source-section2 {
     padding-top: 3rem;
+    font-size: 1.2rem;
 }
 
 #source-section2 a {

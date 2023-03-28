@@ -90,6 +90,15 @@
     background-color: var(--summer-primary);
     color: var(--summer-brand);
     position: relative;
+    padding-top: 2rem;
+}
+
+#summer-first-sec h1 {
+    line-height: 3.8rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 #summer-fsec-img1 {
@@ -130,26 +139,32 @@
     background-color: var(--summer-secondary);
     color: var(--summer-brand);
     position: relative;
+    padding: 6.5rem 6rem 6rem 6rem;
 }
 
 #summer-second-sec h3 {
     padding: 1rem 0;
 }
 
-#summer-second-sec p {
+.text-section2 {
+    padding-left: 5%;
     text-align: left;
+}
+
+.image-section2 {
+    padding-left: 15%;
 }
 
 #summer-ssec-img1 {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     left: 0;
     z-index: 100;
 }
 
 #summer-ssec-img2 {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     right: 0;
     z-index: 100;
 }
@@ -160,6 +175,34 @@
 
 #summer-ssec-thumbnail-sec img {
     max-width: 250px;
+}
+
+.book-item a{
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.book-title {
+    padding: 1.5rem 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.author {
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+#ref-section2 {
+    padding-top: 5rem;
+    font-size: 1.2rem;
+}
+
+#ref-section2 a {
+    color: var(--summer-brand);
+    font-weight: 700;
 }
 
 /* Summer Third Section */
