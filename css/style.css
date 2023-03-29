@@ -169,15 +169,95 @@ nav ul li {
     padding: 2rem 4.5rem 2rem 4.5rem;
 }
 
-.spring-hover {
-    position: absolute;
-    z-index: 99;
-    display: none;
+#spring-btn a {
+    font-size: 3rem;
+    font-family: 'Petrona', serif;
+    font-weight: 700;
+    color: var(--spring-secondary);
+    text-decoration: none;
+    text-align: center;
+    background-image: url(../assets/index-nav/spring-icon-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    background-color: var(--spring-brand);
+    background-position: left;
+    padding: 1.5rem 5.5rem;
+    width: 20rem;
+    border-radius: 0.8rem;
 }
 
-#spring-btn:hover .spring-hover {
-    display: inline;
-    left: 6.67rem;
+#spring-btn a:hover {
+    background-color: var(--spring-accent);
+    transition: 0.5s ease;
+}
+
+#summer-btn a {
+    font-size: 3rem;
+    font-family: 'Petrona', serif;
+    font-weight: 700;
+    color: var(--summer-brand);
+    text-decoration: none;
+    text-align: center;
+    background-image: url(../assets/index-nav/summer-icon-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    background-color: var(--summer-secondary);
+    background-position: left;
+    padding: 1.5rem 4.5rem;
+    width: 20rem;
+    border-radius: 0.8rem;
+}
+
+#summer-btn a:hover {
+    color: var(--summer-primary);
+    background-color: var(--summer-accent);
+    transition: 0.5s ease;
+}
+
+#fall-btn a {
+    font-size: 3rem;
+    font-family: 'Petrona', serif;
+    font-weight: 700;
+    color: var(--fall-primary);
+    text-decoration: none;
+    text-align: center;
+    background-image: url(../assets/index-nav/fall-icon-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    background-color: var(--fall-brand);
+    background-position: left;
+    padding: 1.5rem 4.5rem;
+    width: 20rem;
+    border-radius: 0.8rem;
+}
+
+#fall-btn a:hover {
+    color: var(--summer-primary);
+    background-color: var(--fall-accent);
+    transition: 0.5s ease;
+}
+
+#winter-btn a {
+    font-size: 3rem;
+    font-family: 'Petrona', serif;
+    font-weight: 700;
+    color: var(--winter-primary);
+    text-decoration: none;
+    text-align: center;
+    background-image: url(../assets/index-nav/winter-icon-btn.svg);
+    background-repeat: no-repeat;
+    background-size: 7.5rem;
+    background-color: var(--winter-brand);
+    background-position: left;
+    padding: 1.5rem 4.5rem;
+    width: 20rem;
+    border-radius: 0.8rem;
+}
+
+#winter-btn a:hover {
+    color: var(--summer-primary);
+    background-color:var(--winter-accent);
+    transition: 0.5s ease;
 }
 
 #instr {
@@ -194,10 +274,11 @@ nav ul li {
 }
 
 .homepage {
-    background-image: url("../assets/logo-transparent.png");
+    background-image: url("../assets/bg-home.svg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
 }
+
 
 /* =================
     Form Page
@@ -301,17 +382,29 @@ input[type=text] {
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* #spring-btn:hover .spring-hover {
-        display: inline;
-        left: 3.3rem;
-    } */
     #index-p {
         border: none;
         padding-left: 0;
+    }
+
+    #index-main {
+        padding: 1rem;
+    }
+
+    .buttons {
+        margin: 2rem;
+    }
+
+    #instr {
+        padding: 2rem;
     }
 
     .section1-form, .section2-form {
         padding: 1.5rem 2rem;
 
     }
+}
+
+@media (max-width: 991.98px) {
+    
 }
