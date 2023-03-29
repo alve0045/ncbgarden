@@ -3,10 +3,36 @@
     Fall Styles
 ================= */ 
 
+/* General Styles  */
+
+.references-light a {
+    color: var(--fall-brand);
+}
+
+.references-light a:hover {
+    color: var(--fall-accent);
+}
+
+.references-dark a {
+    color: var(--fall-primary);
+}
+
+.references-dark a:hover {
+    color: var(--fall-tertiary);
+}
+
 /* Fall Navigation */
 
 .nav-fall{
     background-color: var(--fall-primary);
+}
+
+.nav-link {
+    color: var(--fall-brand);
+}
+
+.nav-link:hover {
+    color: var(--fall-accent);
 }
 
 .fall-active {
@@ -17,7 +43,8 @@
 
 #fall-btn1 {
     background-color: var(--fall-accent);
-    border: 2px solid var(--fall-accent); 
+    border: 2px solid var(--fall-accent);
+    transition: background-color 0.5s ease; 
 }
 
 #fall-btn1 a {
@@ -38,7 +65,9 @@
 
 #fall-btn2 {
     background-color: var(--fall-brand);
-    border: 2px solid var(--fall-brand); 
+    border: 2px solid var(--fall-brand);
+    margin-right: 0.5rem; 
+    transition: background-color 0.5s ease; 
 }
 
 #fall-btn2 a {
@@ -59,20 +88,21 @@
 
 #fall-btn3 {
     border: 2px solid var(--fall-accent);   
-    background-color: var(--fall-primary);
+    background-color: var(--fall-accent);
+    transition: background-color 0.5s ease;
 }
 
 #fall-btn3 a {
     text-decoration: none;
-    color: var(--fall-accent);
+    color: #FFF;
 }
 
 #fall-btn3:hover{
-    background-color: var(--fall-accent);
+    background-color: var(--fall-primary);
 }
 
 #fall-btn3:hover a{
-    color: white;
+    color: var(--fall-accent);
 }
 
 /* Fall Images */
@@ -90,6 +120,15 @@
     background-color: var(--fall-primary);
     color: var(--fall-brand);
     position: relative;
+    padding-top: 2rem;
+}
+
+#fall-first-sec h1 {
+    line-height: 3.8rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 #fall-fsec-img1 {
@@ -111,7 +150,7 @@
 #fall-fsec-img3 {
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 15%;
     z-index: 100;
 }
 
@@ -125,11 +164,11 @@
 }
 
 #fall-fsec-img1, #fall-fsec-img2 {
-    max-width: 300px;
+    max-width: 275px;
 }
 
 #fall-fsec-img3, #fall-fsec-img4 {
-    max-width: 300px;
+    max-width: 285px;
 }
 
 /* Fall Second Section */
@@ -138,6 +177,15 @@
     background-color: var(--fall-secondary);
     color: var(--fall-primary);
     position: relative;
+    padding: 6.5rem 6rem 6rem 6rem;
+}
+
+.text-section2 {
+    padding-left: 5%;
+}
+
+.image-section2 {
+    padding-left: 10%;
 }
 
 #fall-second-sec h3 {
@@ -148,17 +196,21 @@
     text-align: left;
 }
 
+#fall-ssec-thumbnail-sec {
+    padding-top: 4rem;
+}
+
 #fall-ssec-img1 {
     position: absolute;
-    bottom: -10%;
-    left: -10%;
+    bottom: 0;
+    left: 0;
     z-index: 100;
 }
 
 #fall-ssec-img2 {
     position: absolute;
-    bottom: -10%;
-    right: -10%;
+    bottom: 0;
+    right: 0;
     z-index: 100;
 }
 
@@ -175,7 +227,21 @@
 #fall-third-sec {
     background-color: var(--fall-primary);
     color: var(--fall-brand);
+    padding-top: 8rem;
 }
+
+#fall-third-sec p {
+    padding-bottom: 1rem;
+}
+
+.image-section3 {
+    padding-left: 3%;
+}
+
+.text-section3 {
+    padding-right: 8%;
+}
+
 
 /* Fall Fourth Section */
 
@@ -183,6 +249,11 @@
     background-color: var(--fall-secondary);
     color: var(--fall-primary);
     position: relative;
+    padding: 7rem 6rem;
+}
+
+#fall-fourth-sec p {
+    padding-bottom: 2rem;
 }
 
 #fall-frsec-img1 {
@@ -190,6 +261,11 @@
     bottom: 0;
     right: 0;
     z-index: 0;
+}
+
+.image-section4{
+    z-index: 1;
+    padding-left: 8%;
 }
 
 /* Fall Fifth Section */
@@ -207,7 +283,27 @@
 #fall-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 9%;
+}
+
+#fall-fifth-sec p {
+    padding-bottom: 3rem;
+}
+
+.image-section5 {
+    padding-left: 8%;
+}
+
+.footer-sec2 {
+    padding-right: 10%;
+}
+
+.footer-sec1 img {
+    max-width: 550px;
+}
+
+.title-footer {
+    padding-top: 2rem;
 }
 
 /* =================
