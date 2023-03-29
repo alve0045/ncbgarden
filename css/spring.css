@@ -12,11 +12,19 @@
     color: var(--spring-accent);
 }
 
+.nav-link:hover {
+    color: var(--spring-accent);
+}
+
+.spring-active:hover {
+    color: var(--spring-brand);
+}
 /* Spring Button 01 */
 
 #spring-btn1 {
     background-color: var(--spring-accent);
-    border: 2px solid var(--spring-accent); 
+    border: 2px solid var(--spring-accent);
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn1 a {

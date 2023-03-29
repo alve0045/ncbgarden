@@ -184,11 +184,11 @@ nav ul li {
     padding: 1.5rem 5.5rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn a:hover {
     background-color: var(--spring-accent);
-    transition: 0.5s ease;
 }
 
 #summer-btn a {
@@ -206,12 +206,12 @@ nav ul li {
     padding: 1.5rem 4.5rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #summer-btn a:hover {
     color: var(--summer-primary);
     background-color: var(--summer-accent);
-    transition: 0.5s ease;
 }
 
 #fall-btn a {
@@ -229,12 +229,13 @@ nav ul li {
     padding: 1.5rem 4.5rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #fall-btn a:hover {
     color: var(--summer-primary);
     background-color: var(--fall-accent);
-    transition: 0.5s ease;
+
 }
 
 #winter-btn a {
@@ -252,12 +253,13 @@ nav ul li {
     padding: 1.5rem 4.5rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #winter-btn a:hover {
     color: var(--summer-primary);
     background-color:var(--winter-accent);
-    transition: 0.5s ease;
+
 }
 
 #instr {

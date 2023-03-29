@@ -275,6 +275,11 @@
     font-weight: 700;
 }
 
+.text-section4 a:hover{
+    color: var(--summer-accent);
+    font-weight: 700;
+}
+
 /* Summer Fifth Section */
 
 #summer-fifth-sec {
@@ -304,6 +309,11 @@
 
 .text-section5 a {
     color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.text-section5 a:hover{
+    color: var(--summer-accent);
     font-weight: 700;
 }
 
