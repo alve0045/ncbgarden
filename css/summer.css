@@ -39,6 +39,7 @@
 #summer-btn2 {
     background-color: var(--summer-brand);
     border: 2px solid var(--summer-brand); 
+    margin-right: 0.5rem;
 }
 
 #summer-btn2 a {
@@ -59,20 +60,20 @@
 
 #summer-btn3 {
     border: 2px solid var(--summer-accent);   
-    background-color: var(--summer-primary);
+    background-color: var(--summer-accent);
 }
 
 #summer-btn3 a {
     text-decoration: none;
-    color: var(--summer-accent);
+    color: #fff;
 }
 
 #summer-btn3:hover{
-    background-color: var(--summer-accent);
+    background-color: var(--summer-primary);
 }
 
 #summer-btn3:hover a{
-    color: white;
+    color: var(--summer-accent);
 }
 
 /* Summer Images */
@@ -84,12 +85,29 @@
     margin:0;
 }
 
+#summer-fsec-img1, #summer-fsec-img2 {
+    max-width: 210px;
+}
+
+#summer-fsec-img3, #summer-fsec-img4 {
+    max-width: 410px;
+}
+
 /* Summer First Section */
 
 #summer-first-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
     position: relative;
+    padding-top: 2rem;
+}
+
+#summer-first-sec h1 {
+    line-height: 3.8rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 #summer-fsec-img1 {
@@ -120,7 +138,7 @@
     z-index: 100;
 }
 
-#summer-fsec-img1, #summer-fsec-img2, #summer-fsec-img5, #summer-fsec-img6 {
+#summer-fsec-img5, #summer-fsec-img6 {
     max-width: 250px;
 }
 
@@ -130,26 +148,32 @@
     background-color: var(--summer-secondary);
     color: var(--summer-brand);
     position: relative;
+    padding: 6.5rem 6rem 6rem 6rem;
 }
 
 #summer-second-sec h3 {
     padding: 1rem 0;
 }
 
-#summer-second-sec p {
+.text-section2 {
+    padding-left: 5%;
     text-align: left;
+}
+
+.image-section2 {
+    padding-left: 15%;
 }
 
 #summer-ssec-img1 {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     left: 0;
     z-index: 100;
 }
 
 #summer-ssec-img2 {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     right: 0;
     z-index: 100;
 }
@@ -162,18 +186,98 @@
     max-width: 250px;
 }
 
+.book-item a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.book-item a:hover {
+    color: var(--summer-accent);
+}
+
+.book-title {
+    padding: 1.5rem 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.author {
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+#ref-section2 {
+    padding-top: 5rem;
+    font-size: 1.2rem;
+}
+
+#ref-section2 a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+#ref-section2 a:hover {
+    color: var(--summer-accent);
+}
+
 /* Summer Third Section */
 
 #summer-third-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
+    padding-top: 8rem;
 }
+
+#summer-third-sec p {
+    padding-bottom: 1.5rem;
+}
+
+.image-section3 {
+    padding-left: 1.5rem;
+}
+
+.text-section3 {
+    margin-right: 2%;
+}
+
+.text-section3 a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.text-section3 a:hover {
+    color: var(--summer-accent);
+}
+
+
 
 /* Summer Fourth Section */
 
 #summer-fourth-sec {
     background-color:var(--summer-secondary);
     color: var(--summer-brand);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+#summer-fourth-sec p {
+    padding-bottom: 1.5rem;
+}
+
+.image-section4 {
+    padding-left: 10%;
+}
+
+.text-section4 a{
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.text-section4 a:hover{
+    color: var(--summer-accent);
+    font-weight: 700;
 }
 
 /* Summer Fifth Section */
@@ -191,8 +295,41 @@
 #summer-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 11%;
+    max-width: 500px;
 }
+
+.text-section5 li {
+    padding: 1rem 0;
+}
+
+.text-section5 h4 {
+    padding-top: 1rem;
+}
+
+.text-section5 a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.text-section5 a:hover{
+    color: var(--summer-accent);
+    font-weight: 700;
+}
+
+.image-section5 {
+    padding-left: 8%;
+}
+
+.footer-sec2 {
+    padding-right: 10%;
+}
+
+.title-footer {
+    padding-top: 2rem;
+}
+
+
 
 /* =================
     Media Queries
