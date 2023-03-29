@@ -177,9 +177,13 @@
     max-width: 250px;
 }
 
-.book-item a{
+.book-item a {
     color: var(--summer-brand);
     font-weight: 700;
+}
+
+.book-item a:hover {
+    color: var(--summer-accent);
 }
 
 .book-title {
@@ -203,6 +207,10 @@
 #ref-section2 a {
     color: var(--summer-brand);
     font-weight: 700;
+}
+
+#ref-section2 a:hover {
+    color: var(--summer-accent);
 }
 
 /* Summer Third Section */
@@ -230,6 +238,11 @@
     font-weight: 700;
 }
 
+.text-section3 a:hover {
+    color: var(--summer-accent);
+}
+
+
 
 /* Summer Fourth Section */
 
@@ -246,6 +259,11 @@
 
 .image-section4 {
     padding-left: 10%;
+}
+
+.text-section4 a{
+    color: var(--summer-brand);
+    font-weight: 700;
 }
 
 /* Summer Fifth Section */
@@ -265,6 +283,26 @@
     bottom: 0;
     left: 10%;
 }
+
+.text-section5 li {
+    padding: 1rem 0;
+}
+
+.text-section5 h4 {
+    padding-top: 1rem;
+}
+
+.text-section5 a {
+    color: var(--summer-brand);
+    font-weight: 700;
+}
+
+.image-section5 {
+    padding-left: 8%;
+}
+
+
+
 
 /* =================
     Media Queries

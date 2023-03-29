@@ -36,14 +36,14 @@
 /* Spring Button 02 */
 
 #spring-btn2 {
-    background-color: var(--spring-primary);
-    border: 2px solid var(--spring-accent);
+    background-color: var(--spring-brand);
+    border: 2px solid var(--spring-brand);
     margin-right: 0.5rem; 
 }
 
 #spring-btn2 a {
     text-decoration: none;
-    color: var(--spring-accent);
+    color: #fff;
 }
 
 #spring-btn2:hover {
@@ -190,6 +190,10 @@
 #source-section2 a {
     padding: 0 0.5rem;
     color: var(--spring-secondary);
+}
+
+#source-section2 a:hover {
+    color: var(--spring-tertiary);
 }
 
 #spring-ssec-img1 {
