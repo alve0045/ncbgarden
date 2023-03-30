@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center align-items-end">
+                <ul class="navbar-nav ms-auto text-center d-flex align-items-end">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
@@ -64,35 +64,49 @@
                     <img class="img-fluid" src="../assets/form/seasons-icons.png" alt="Icons of seasons">
                     <p> Brought to you by: <br> <a href="http://ncbgarden.ca/">NCBGarden.ca</a></p>
                 </div>
-                <form method="POST" action="form-validation.php" class="col-xs-12 col-md-7 col-lg-8 section2-form">
+                <form class="col-xs-12 col-md-7 col-lg-8 section2-form needs-validation" novalidate>
                     <div class="row">
                         <div class="col-sm-12 col-md-6 box-form">
                             <label for="first-name" class="form-label">First name</label>
-                            <input id="first-name" type="text" class="form-control" placeholder="John">
+                            <input id="first-name" type="text" class="form-control" placeholder="John" required>
+                            <div class="invalid-feedback">
+                                Please type a valid first name.
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-6 box-form">
                             <label for="last-name" class="form-label">Last name</label>
-                            <input id="last-name" type="text" class="form-control" placeholder="Doe" >
+                            <input id="last-name" type="text" class="form-control" placeholder="Doe" required>
+                            <div class="invalid-feedback">
+                                Please type a valid last name.
+                            </div>
                         </div>    
                         <div class="col-sm-12 col-lg-12 box-form">
                             <label for="email" class="form-label">Email</label>
-                            <input id="email" type="text" class="form-control" placeholder="example@email.com" >
+                            <input id="email" type="email" class="form-control" placeholder="example@email.com" required>
+                            <div class="invalid-feedback">
+                                Please type a valid email address.
+                            </div>
                         </div>
                         <div class="col-sm-12 col-lg-12 box-form">
                             <label for="message" class="form-label">Message</label>
-                            <textarea id="message" class="form-control" rows="10" placeholder="Here goes your story..." ></textarea>
+                            <textarea id="message" class="form-control" rows="10" placeholder="Here goes your story..." required></textarea>
+                            <div class="invalid-feedback">
+                                Please type a valid message.
+                            </div>
                         </div>
                         <div class="col-sm-auto col-lg-auto box-form"> 
-                            <button id="form-btn" type="button" class="custom-btn">Submit</button>
+                            <button id="form-btn" type="submit" class="custom-btn">Submit</button>
                         </div>
                     </div>                
                 </form>
+
             </div>
         </main>
         <!-- Main (End) -->
 
         <!-- Scripts (Start)-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="../js/script.js"></script>   
         <!-- Scripts (End) --> 
 
