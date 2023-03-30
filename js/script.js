@@ -46,16 +46,14 @@
                       fname +
                       '<br/>Last Name: ' +
                       lname +
-                      '<br/>Email: ' +
-                      emailInput.value.trim() +
                       '<br/>Message: ' +
                       message;
 
                   // SMTP JS Email Verification
                   Email.send({
                       SecureToken: '54ed28c8-faa9-4001-ba7a-d475870aaa9d',
-                      To: 'diss0005@algonquinlive.com',
-                      From: 'odinquiries@gmail.com',
+                      To: 'alve0045@algonquinlive.com',
+                      From: emailInput.value.trim(),
                       Subject: 'You got a new feedback from NCB Microsite',
                       Body: body,
                   }).then((message) => alert('We appreciate your feedback!'));
