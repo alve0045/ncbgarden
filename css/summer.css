@@ -218,7 +218,6 @@
 
 #ref-section2 a {
     color: var(--summer-brand);
-    font-weight: 700;
 }
 
 #ref-section2 a:hover {
@@ -247,7 +246,6 @@
 
 .text-section3 a {
     color: var(--summer-brand);
-    font-weight: 700;
 }
 
 .text-section3 a:hover {
@@ -275,12 +273,10 @@
 
 .text-section4 a{
     color: var(--summer-brand);
-    font-weight: 700;
 }
 
 .text-section4 a:hover{
     color: var(--summer-accent);
-    font-weight: 700;
 }
 
 /* Summer Fifth Section */
@@ -312,12 +308,10 @@
 
 .text-section5 a {
     color: var(--summer-brand);
-    font-weight: 700;
 }
 
 .text-section5 a:hover{
     color: var(--summer-accent);
-    font-weight: 700;
 }
 
 .image-section5 {
