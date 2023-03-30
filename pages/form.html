@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center">
+                <ul class="navbar-nav ms-auto text-center align-items-end">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
@@ -64,36 +64,26 @@
                     <img class="img-fluid" src="../assets/form/seasons-icons.png" alt="Icons of seasons">
                     <p> Brought to you by: <br> <a href="http://ncbgarden.ca/">NCBGarden.ca</a></p>
                 </div>
-                <form action="" class="col-xs-12 col-md-7 col-lg-8 section2-form needs-validation" novalidate>
+                <form method="POST" action="form-validation.php" class="col-xs-12 col-md-7 col-lg-8 section2-form">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 box-form">
                             <label for="first-name" class="form-label">First name</label>
-                            <input id="first-name" name="fname" type="text" class="form-control form-text" placeholder="John" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
+                            <input id="first-name" type="text" class="form-control" placeholder="John">
                         </div>
                         <div class="col-sm-12 col-md-6 box-form">
                             <label for="last-name" class="form-label">Last name</label>
-                            <input id="last-name" name="lname"  type="text" class="form-control form-text" placeholder="Doe" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
+                            <input id="last-name" type="text" class="form-control" placeholder="Doe" >
                         </div>    
                         <div class="col-sm-12 col-lg-12 box-form">
                             <label for="email" class="form-label">Email</label>
-                            <input id="email" name="email" type="email" class="form-control form-text" placeholder="example@email.com" required>
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            <div class="invalid-feedback">
-                                You must enter a valid value for the email.
-                            </div>
+                            <input id="email" type="text" class="form-control" placeholder="example@email.com" >
                         </div>
                         <div class="col-sm-12 col-lg-12 box-form">
-                            <label for="message" class="form-label form-text">Message</label>
-                            <textarea id="message" name="message" class="form-control" rows="10" placeholder="Here goes your story..." required></textarea>
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="10" placeholder="Here goes your story..." ></textarea>
                         </div>
                         <div class="col-sm-auto col-lg-auto box-form"> 
-                            <button id="form-btn" name="submit" type="button" class="custom-btn" onclick="sendEmail()">Submit</button>
+                            <button id="form-btn" type="button" class="custom-btn">Submit</button>
                         </div>
                     </div>                
                 </form>

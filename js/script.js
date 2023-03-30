@@ -58,6 +58,7 @@ function sendEmail(){
     let body = "First Name: " + formData.fname + "<br/>Last Name: " + formData.lname + "<br/>Email: " + formData.email + 
                 "<br/>Message: " + formData.message;
 
+    //SMTP JS Email Verification
     Email.send({
 
         SecureToken : "54ed28c8-faa9-4001-ba7a-d475870aaa9d",
