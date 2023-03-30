@@ -35,4 +35,37 @@
     }
   });
 
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+  .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      
+      if (!form.checkValidity() && !isEmailValid) {
+        event.preventDefault()
+        event.stopPropagation()
+      } else {
+
+        form.classList.add('was-validated');
+
+        //Construct the email
+        let body = "First Name: " + formData.fname + "<br/>Last Name: " + formData.lname + "<br/>Email: " + formData.email + 
+                "<br/>Message: " + formData.message;
+
+        //SMTP JS Email Verification
+        Email.send({
+
+            SecureToken : "54ed28c8-faa9-4001-ba7a-d475870aaa9d",
+            To : 'diss0005@algonquinlive.com',
+            From : 'odinquiries@gmail.com',
+            Subject : "You got a new feedback from NCB Microsite",
+            Body : body
+        }).then(
+          message => alert("We appreciate your feedback!")
+        );
+      }
+
+    }, false)
+  })
+
 })();
+
