@@ -2,6 +2,24 @@
     Spring Styles
 ================= */ 
 
+/* General Styles  */
+
+.references-light a {
+    color: var(--spring-brand);
+}
+
+.references-light a:hover {
+    color: var(--spring-accent);
+}
+
+.references-dark a {
+    color: var(--spring-secondary);
+}
+
+.references-dark a:hover {
+    color: var(--spring-tertiary);
+}
+
 
 /* Spring Navigation */
 .nav-spring{
