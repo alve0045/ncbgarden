@@ -145,13 +145,13 @@ nav ul li {
 }
 
 #index-h1 {
-    font-size: 4.7rem;
-    line-height: 4.5rem;
+    font-size: 4rem;
+    line-height: 4rem;
     color: var(--spring-brand);
 }
 
 #index-p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--spring-brand);
     border-left: 1px solid var(--spring-brand);
     padding-left: 5rem;
@@ -170,7 +170,7 @@ nav ul li {
 }
 
 #spring-btn a {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Petrona', serif;
     font-weight: 700;
     color: var(--spring-secondary);
@@ -181,8 +181,8 @@ nav ul li {
     background-size: 9rem;
     background-color: var(--spring-brand);
     background-position: left;
-    padding: 1.5rem 5.5rem;
-    width: 20rem;
+    padding: 2rem;
+    width: 18rem;
     border-radius: 0.8rem;
 }
 
@@ -192,7 +192,7 @@ nav ul li {
 }
 
 #summer-btn a {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Petrona', serif;
     font-weight: 700;
     color: var(--summer-brand);
@@ -203,7 +203,7 @@ nav ul li {
     background-size: 9rem;
     background-color: var(--summer-secondary);
     background-position: left;
-    padding: 1.5rem 4.5rem;
+    padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
 }
@@ -215,7 +215,7 @@ nav ul li {
 }
 
 #fall-btn a {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Petrona', serif;
     font-weight: 700;
     color: var(--fall-primary);
@@ -226,7 +226,7 @@ nav ul li {
     background-size: 9rem;
     background-color: var(--fall-brand);
     background-position: left;
-    padding: 1.5rem 4.5rem;
+    padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
 }
@@ -238,7 +238,7 @@ nav ul li {
 }
 
 #winter-btn a {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Petrona', serif;
     font-weight: 700;
     color: var(--winter-primary);
@@ -249,7 +249,7 @@ nav ul li {
     background-size: 7.5rem;
     background-color: var(--winter-brand);
     background-position: left;
-    padding: 1.5rem 4.5rem;
+    padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
 }
@@ -380,6 +380,27 @@ input[type=text] {
     Media Queries
 ================= */ 
 
+/* x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #index-header {
+        padding: 2.5rem;
+    }
+
+    #index-h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    #index-main {
+        padding: 0;
+    }
+
+    #fall-btn, #winter-btn {
+        margin: 0;
+        /* margin-bottom: 1.7rem; */
+    }
+}
+
  /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     #index-p {
@@ -389,14 +410,6 @@ input[type=text] {
 
     #index-main {
         padding: 1rem;
-    }
-
-    .buttons {
-        margin: 2rem;
-    }
-
-    #instr {
-        padding: 2rem;
     }
 
     .section1-form, .section2-form {
