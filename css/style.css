@@ -25,11 +25,13 @@
     --fall-primary: #FFF7F2;
     --fall-accent:#C44536;
     --fall-secondary: #606C38;
+    --fall-tertiary: #0f1608;
 
     --winter-brand: #113B7B;
     --winter-primary: #F4F7FF;
     --winter-accent:#C55DF6;
-    --winter-secondary: #354E71;    
+    --winter-secondary: #354E71;
+    --winter-tertiary: #091a33;    
 }
 
 /* =================
