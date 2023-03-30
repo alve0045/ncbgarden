@@ -40,7 +40,6 @@
 
 body {
     width: 100vw;
-    height: auto;
     font-family: 'Lato', sans-serif;
     padding: 0;
     background-color: var(--spring-primary) ;
@@ -283,7 +282,6 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 /* =================
     Form Page
