@@ -278,6 +278,7 @@ nav ul li {
 }
 
 .homepage {
+    height: 100vh;
     background-image: url("../assets/bg-home.svg");
     background-repeat: no-repeat;
     background-position: center;
