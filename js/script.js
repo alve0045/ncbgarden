@@ -46,6 +46,8 @@
                       fname +
                       '<br/>Last Name: ' +
                       lname +
+                      '<br/>Email: ' +
+                      emailInput.value.trim() +
                       '<br/>Message: ' +
                       message;
 
@@ -53,10 +55,10 @@
                   Email.send({
                       SecureToken: '54ed28c8-faa9-4001-ba7a-d475870aaa9d',
                       To: 'alve0045@algonquinlive.com',
-                      From: emailInput.value.trim(),
+                      From: 'odinquiries@gmail.com',
                       Subject: 'You got a new feedback from NCB Microsite',
                       Body: body,
-                  }).then((message) => alert('We appreciate your feedback!'));
+                  }).then((message) => alert('We appreciate your story!'));
               }
           },
           false
