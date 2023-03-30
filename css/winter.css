@@ -3,12 +3,38 @@
     Winter Styles
 ================= */
 
+/* General Styles  */
+
+.references-light a {
+    color: var(--winter-brand);
+}
+
+.references-light a:hover {
+    color: var(--winter-accent);
+}
+
+.references-dark a {
+    color: var(--winter-primary);
+}
+
+.references-dark a:hover {
+    color: var(--winter-tertiary);
+}
+
 /* Winter Navigation */
 .nav-winter{
     background-color: var(--winter-primary);
 }
 
-.winter-active {
+.nav-item .winter-active {
+    color: var(--winter-accent);
+}
+
+.nav-item a {
+    color: var(--winter-brand);
+}
+
+.nav-item a:hover {
     color: var(--winter-accent);
 }
 
@@ -16,7 +42,8 @@
 
 #winter-btn1 {
     background-color: var(--winter-accent);
-    border: 2px solid var(--winter-accent); 
+    border: 2px solid var(--winter-accent);
+    transition: background-color 0.5s ease;  
 }
 
 #winter-btn1 a {
@@ -37,7 +64,9 @@
 
 #winter-btn2 {
     background-color: var(--winter-brand);
-    border: 2px solid var(--winter-brand); 
+    border: 2px solid var(--winter-brand);
+    margin-right: 0.5rem;
+    transition: background-color 0.5s ease;   
 }
 
 #winter-btn2 a {
@@ -58,20 +87,21 @@
 
 #winter-btn3 {
     border: 2px solid var(--winter-accent);   
-    background-color: var(--winter-primary);
+    background-color: var(--winter-accent);
+    transition: background-color 0.5s ease;  
 }
 
 #winter-btn3 a {
     text-decoration: none;
-    color: var(--winter-accent);
+    color: #fff;
 }
 
 #winter-btn3:hover{
-    background-color: var(--winter-accent);
+    background-color: var(--winter-primary);
 }
 
 #winter-btn3:hover a{
-    color: white;
+    color: var(--winter-accent);
 }
 
 /* Winter Images */
@@ -89,6 +119,15 @@
     background-color: var(--winter-primary);
     color: var(--winter-brand);
     position: relative;
+    padding-top: 2rem;
+}
+
+#winter-first-sec h1 {
+    line-height: 3.8rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 #winter-fsec-img1 {
@@ -137,14 +176,40 @@
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
+    padding: 6.5rem 6rem 6rem 6rem; 
+}
+
+.text-section2 {
+    padding-left: 5%;
+}
+
+.image-section2 {
+    padding-left: 11%;
+}
+
+.book-item a {
+    color: var(--winter-primary);
+    font-weight: 700;
+}
+
+.book-item a:hover {
+    color: var(--winter-accent);
+}
+
+.book-title {
+    margin: 0;
+    text-align: center;
+}
+
+.author {
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
 }
 
 #winter-second-sec h3 {
     padding: 1rem 0;
-}
-
-#winter-second-sec p {
-    text-align: left;
 }
 
 #winter-ssec-img1 {
@@ -176,11 +241,29 @@
     margin-top: 1rem;
 }
 
+#ref-section2 {
+    padding-top: 5rem;
+    font-size: 1.2rem;
+}
+
 /* winter Third Section */
 
 #winter-third-sec {
     background-color: var(--winter-primary);
     color: var(--winter-brand);
+    padding-top: 8rem;
+}
+
+#winter-third-sec p {
+    padding-bottom: 1.5rem;
+}
+
+.image-section3 {
+    padding-left: 8%;
+}
+
+.text-section3 {
+    margin-right: 8%;
 }
 
 /* winter Fourth Section */
@@ -189,6 +272,12 @@
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+#winter-fourth-sec p {
+    padding-bottom: 1.5rem;
 }
 
 #winter-frsec-img1 {
@@ -196,6 +285,11 @@
     bottom: 0;
     right: 0;
     z-index: 0;
+}
+
+.image-section4{
+    z-index: 1;
+    padding-left: 8%;
 }
 
 /* winter Fifth Section */
@@ -214,6 +308,23 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    max-width: 600px;
+}
+
+#winter-fifth-sec p {
+    padding-bottom: 3rem;
+}
+
+.image-section5 {
+    padding-left: 8%;
+}
+
+.footer-sec2 {
+    padding-right: 10%;
+}
+
+.title-footer {
+    padding-top: 2rem;
 }
 
 /* =================

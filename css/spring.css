@@ -2,6 +2,24 @@
     Spring Styles
 ================= */ 
 
+/* General Styles  */
+
+.references-light a {
+    color: var(--spring-brand);
+}
+
+.references-light a:hover {
+    color: var(--spring-accent);
+}
+
+.references-dark a {
+    color: var(--spring-secondary);
+}
+
+.references-dark a:hover {
+    color: var(--spring-tertiary);
+}
+
 
 /* Spring Navigation */
 .nav-spring{
@@ -12,11 +30,16 @@
     color: var(--spring-accent);
 }
 
+.nav-link:hover {
+    color: var(--spring-accent);
+}
+
 /* Spring Button 01 */
 
 #spring-btn1 {
     background-color: var(--spring-accent);
-    border: 2px solid var(--spring-accent); 
+    border: 2px solid var(--spring-accent);
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn1 a {
@@ -39,6 +62,7 @@
     background-color: var(--spring-brand);
     border: 2px solid var(--spring-brand);
     margin-right: 0.5rem; 
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn2 a {
@@ -60,6 +84,7 @@
 #spring-btn3 {
     border: 2px solid var(--spring-accent);   
     background-color: var(--spring-accent);
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn3 a {
@@ -264,6 +289,7 @@
     background-color:var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
+    padding-top: 7rem;
 }
 
 #spring-fifth-sec p {
@@ -286,7 +312,7 @@
 }
 
 .footer-sec2 {
-    padding-right: 10%;
+    padding-right: 7%;
 }
 
 .title-footer {

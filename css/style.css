@@ -25,11 +25,13 @@
     --fall-primary: #FFF7F2;
     --fall-accent:#C44536;
     --fall-secondary: #606C38;
+    --fall-tertiary: #0f1608;
 
     --winter-brand: #113B7B;
     --winter-primary: #F4F7FF;
     --winter-accent:#C55DF6;
-    --winter-secondary: #354E71;    
+    --winter-secondary: #354E71;
+    --winter-tertiary: #091a33;    
 }
 
 /* =================
@@ -184,11 +186,11 @@ nav ul li {
     padding: 2rem;
     width: 18rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #spring-btn a:hover {
     background-color: var(--spring-accent);
-    transition: 0.5s ease;
 }
 
 #summer-btn a {
@@ -206,12 +208,12 @@ nav ul li {
     padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #summer-btn a:hover {
     color: var(--summer-primary);
     background-color: var(--summer-accent);
-    transition: 0.5s ease;
 }
 
 #fall-btn a {
@@ -229,12 +231,13 @@ nav ul li {
     padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #fall-btn a:hover {
     color: var(--summer-primary);
     background-color: var(--fall-accent);
-    transition: 0.5s ease;
+
 }
 
 #winter-btn a {
@@ -252,12 +255,13 @@ nav ul li {
     padding: 2rem;
     width: 20rem;
     border-radius: 0.8rem;
+    transition: background-color 0.5s ease;
 }
 
 #winter-btn a:hover {
     color: var(--summer-primary);
     background-color:var(--winter-accent);
-    transition: 0.5s ease;
+
 }
 
 #instr {
