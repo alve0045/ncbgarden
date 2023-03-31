@@ -285,34 +285,6 @@ nav ul li {
     background-position: center;
 }
 
-/* =================
-    Form Page
-================= */ 
-
-.section1-form, .section2-form {
-    padding: 6rem 2rem;
-}
-
-.section2-form label {
-    color: var(--spring-brand);
-    font-weight: 700;
-}
-
-.section1-form h1 {
-    color: var(--spring-brand);
-    font-weight: 600;
-}
-
-.box-form {
-    padding: 1rem 1rem;
-
-}
-
-input[type=text] {
-    border-color: var(--spring-brand);
-    border-width: 0.1rem;
-}
-
 
 /* =================
     Form Page
@@ -355,6 +327,11 @@ input[type=text] {
 }
 
 input[type=text] {
+    border-color: var(--spring-brand);
+    border-width: 0.05rem;
+}
+
+#email {
     border-color: var(--spring-brand);
     border-width: 0.05rem;
 }
