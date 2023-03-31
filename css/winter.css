@@ -126,8 +126,8 @@
     line-height: 3.8rem;
     font-size: 3.2rem;
     font-weight: 800;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 #winter-fsec-img1 {
@@ -179,12 +179,8 @@
     padding: 6.5rem 6rem 6rem 6rem; 
 }
 
-.text-section2 {
-    padding-left: 5%;
-}
-
-.image-section2 {
-    padding-left: 11%;
+.image-section2 img {
+    max-width: 500px;   
 }
 
 .book-item a {
@@ -258,14 +254,6 @@
     padding-bottom: 1.5rem;
 }
 
-.image-section3 {
-    padding-left: 8%;
-}
-
-.text-section3 {
-    margin-right: 8%;
-}
-
 /* winter Fourth Section */
 
 #winter-fourth-sec {
@@ -289,7 +277,7 @@
 
 .image-section4{
     z-index: 1;
-    padding-left: 8%;
+    padding-left: 6%;
 }
 
 /* winter Fifth Section */
@@ -315,12 +303,9 @@
     padding-bottom: 3rem;
 }
 
-.image-section5 {
-    padding-left: 8%;
-}
-
 .footer-sec2 {
-    padding-right: 10%;
+    padding-right: 9%;
+    z-index: 1;
 }
 
 .title-footer {

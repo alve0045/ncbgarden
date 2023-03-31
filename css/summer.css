@@ -109,8 +109,8 @@
     line-height: 3.8rem;
     font-size: 3.2rem;
     font-weight: 800;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 #summer-fsec-img1 {
@@ -159,12 +159,7 @@
 }
 
 .text-section2 {
-    padding-left: 5%;
     text-align: left;
-}
-
-.image-section2 {
-    padding-left: 15%;
 }
 
 #summer-ssec-img1 {
@@ -236,14 +231,6 @@
     padding-bottom: 1.5rem;
 }
 
-.image-section3 {
-    padding-left: 1.5rem;
-}
-
-.text-section3 {
-    margin-right: 2%;
-}
-
 .text-section3 a {
     color: var(--summer-brand);
 }
@@ -267,8 +254,8 @@
     padding-bottom: 1.5rem;
 }
 
-.image-section4 {
-    padding-left: 10%;
+.image-section4 img {
+    max-width: 500px;
 }
 
 .text-section4 a{
@@ -294,7 +281,7 @@
 #summer-fifth-sec .footer-sec1 img {
     position: absolute;
     bottom: 0;
-    left: 11%;
+    left: 14%;
     max-width: 500px;
 }
 
@@ -314,12 +301,8 @@
     color: var(--summer-accent);
 }
 
-.image-section5 {
-    padding-left: 8%;
-}
-
 .footer-sec2 {
-    padding-right: 10%;
+    z-index: 1;
 }
 
 .title-footer {

@@ -127,8 +127,8 @@
     line-height: 3.8rem;
     font-size: 3.2rem;
     font-weight: 800;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 #fall-fsec-img1 {
@@ -180,14 +180,6 @@
     padding: 6.5rem 6rem 6rem 6rem;
 }
 
-.text-section2 {
-    padding-left: 5%;
-}
-
-.image-section2 {
-    padding-left: 10%;
-}
-
 #fall-second-sec h3 {
     padding: 1rem 0;
 }
@@ -231,19 +223,15 @@
 #fall-third-sec {
     background-color: var(--fall-primary);
     color: var(--fall-brand);
-    padding-top: 8rem;
+    padding: 8rem 8rem 4rem 8rem;
 }
 
 #fall-third-sec p {
     padding-bottom: 1rem;
 }
 
-.image-section3 {
-    padding-left: 3%;
-}
-
-.text-section3 {
-    padding-right: 8%;
+#bee-image img {
+    max-width: 550px;
 }
 
 
@@ -269,7 +257,6 @@
 
 .image-section4{
     z-index: 1;
-    padding-left: 8%;
 }
 
 /* Fall Fifth Section */
@@ -292,14 +279,6 @@
 
 #fall-fifth-sec p {
     padding-bottom: 3rem;
-}
-
-.image-section5 {
-    padding-left: 8%;
-}
-
-.footer-sec2 {
-    padding-right: 10%;
 }
 
 .footer-sec1 img {

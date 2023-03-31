@@ -43,6 +43,7 @@ body {
     font-family: 'Lato', sans-serif;
     padding: 0;
     background-color: var(--spring-primary) ;
+    font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,6 +71,7 @@ p, a, ul, li, span {
 .section {
     width: 100%;
     padding: 5rem 5rem;
+    font-size: 1.2rem;
 }
 
 .section h2 {
