@@ -97,6 +97,10 @@ p, a, ul, li, span {
     max-width: 450px;
 }
 
+.section-img-overlay {
+    z-index: 100;
+}
+
 .custom-thumbnail {
     padding-bottom: 1rem;
 }

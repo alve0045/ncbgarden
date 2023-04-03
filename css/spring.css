@@ -249,16 +249,13 @@
     padding-bottom: 3rem;
 }
 
-.image-section4{
-    z-index: 1;
-}
-
 #spring-frsec-img1 {
     position: absolute;
     bottom: -5%;
     right: 0;
-    z-index: 0;
     max-width: 400px;
+    z-index: 0;
+
 }
 
 /* Spring Fifth Section */
@@ -283,10 +280,7 @@
     bottom: 0;
     left: 10%;
     max-width: 500px;
-}
-
-.footer-sec2 {
-    z-index: 1;
+    z-index: 1000;
 }
 
 .title-footer {
