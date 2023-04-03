@@ -321,6 +321,19 @@
  /* Small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
 
+    #summer-fsec-img1, #summer-fsec-img2, 
+    #summer-fsec-img3, #summer-fsec-img4{
+        display: none;
+    }
+
+    #summer-ssec-img1, #summer-ssec-img2 {
+        display: none;
+    }
+
+    #summer-fifth-img1 {
+        display: none;
+    }
+
 }
 
 /* X-Small devices (portrait phones, less than 576px) */

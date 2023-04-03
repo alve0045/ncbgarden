@@ -316,6 +316,23 @@
  /* Small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
 
+    #winter-fsec-img1, #winter-fsec-img2, 
+    #winter-fsec-img3, #winter-fsec-img4{
+        display: none;
+    }
+
+    #winter-ssec-img1, #winter-ssec-img2 {
+        display: none;
+    }
+
+    #winter-frsec-img1 {
+        display: none;
+    }
+
+    #winter-fifth-img1 {
+        display: none;
+    }
+
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
