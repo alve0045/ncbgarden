@@ -278,7 +278,7 @@
     margin-right: 1rem;
 }
 
-#spring-fifth-sec .footer-sec1 img {
+#spring-fifth-img1 {
     position: absolute;
     bottom: 0;
     left: 10%;
@@ -301,6 +301,27 @@
     #navbarNav ul li{
         border-color: var(--spring-brand);
     }  
+
+    #spring-fsec-img1, #spring-fsec-img2, #spring-fsec-img5, #spring-fsec-img6 {
+        max-width: 300px;
+    }
+    
+    #spring-fsec-img3, #spring-fsec-img4 {
+        max-width: 200px;
+    }
+
+    #spring-ssec-img1, #spring-ssec-img2 {
+        max-width: 200px;
+    }
+
+    #spring-frsec-img1 {
+        max-width: 350px;
+    }
+
+    #spring-fifth-img1 {
+        left: 5%;
+        max-width: 380px;
+    }
 }
 
  /* Small devices (landscape phones, less than 768px) */
