@@ -73,9 +73,13 @@ h3{
     font-size: 2rem;
 }
 
-p, a, ul, li, span {
+p, ul, span, a {
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-size: 1rem;
 }
 
 .custom-btn{
@@ -90,7 +94,7 @@ p, a, ul, li, span {
 }
 
 .landing-sec {
-    height: 32rem;
+    min-height: 32rem;
 }
 
 .section-img {
@@ -445,6 +449,10 @@ input[type=text] {
     p, a, ul, li, span {
         font-size: 1.05rem;
     } 
+
+    .section-img {
+        max-width: 350px;
+    }
     
     #index-p {
         border: none;
@@ -459,6 +467,7 @@ input[type=text] {
         padding: 1.5rem 2rem;
 
     }
+    
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -482,6 +491,10 @@ input[type=text] {
 
     p, a, ul, li, span {
         font-size: 1rem;
+    }
+
+    .section-img {
+        max-width: 300px;
     }
 
     #index-header {
