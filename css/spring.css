@@ -119,14 +119,6 @@
     padding-top: 2rem;
 }
 
-#spring-first-sec h1 {
-    line-height: 3.8rem;
-    font-size: 3.5rem;
-    font-weight: 800;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-}
-
 #spring-fsec-img1 {
     position: absolute;
     bottom: -22%;
@@ -305,8 +297,10 @@
     Media Queries
 ================= */ 
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
-
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (max-width: 768px) {  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+
+}
