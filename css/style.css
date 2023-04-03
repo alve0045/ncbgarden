@@ -402,12 +402,11 @@ input[type=text] {
     } 
 
     #navbarNav {
-        padding: 2rem;   
+        padding: 4.5rem;   
     }
 
     #navbarNav ul {
         align-items: stretch;
-        height:100vh;
     }
 
     #navbarNav ul li{
