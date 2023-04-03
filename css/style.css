@@ -118,6 +118,9 @@ span .references {
 /* =================
     Navigation
 ================= */
+#navbarNav ul {
+    align-items: flex-end;
+}
 
 #navbarNav li {
     padding-top: 1rem;
@@ -128,13 +131,22 @@ span .references {
 }
 
 .brand-full {
-    max-width: 250px;
+    max-width: 230px;
     display: block;
 }
 
 .brand-half {
-    max-width: 70px;
+    margin-top: 0.8rem;
+    max-height: 57.95px;
     display: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 
@@ -379,29 +391,34 @@ input[type=text] {
     Media Queries
 ================= */ 
 
-/* x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #index-header {
-        padding: 2.5rem;
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .brand-full {
+        display: none;
+    }
+    
+    .brand-half {
+        display: block;
+    } 
+
+    #navbarNav {
+        padding: 2rem;   
     }
 
-    #index-h1 {
-        font-size: 3rem;
-        line-height: 3.5rem;
+    #navbarNav ul {
+        align-items: stretch;
+        height:100vh;
     }
 
-    #index-main {
-        padding: 0;
-    }
+    #navbarNav ul li{
 
-    #fall-btn, #winter-btn {
-        margin: 0;
-        /* margin-bottom: 1.7rem; */
-    }
+        border-bottom: solid 1px;
+    }  
+
 }
 
- /* `md` applies to small devices (landscape phones, less than 768px) */
- @media (max-width: 768px) {
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
     h1 {
         font-size: 3rem;
         line-height: 3.5rem;
@@ -420,16 +437,8 @@ input[type=text] {
 
     p, a, ul, li, span {
         font-size: 1.05rem;
-    }
-
-    .brand-full {
-        display: none;
-    }
+    } 
     
-    .brand-half {
-        display: block;
-    }
-
     #index-p {
         border: none;
         padding-left: 0;
@@ -445,7 +454,8 @@ input[type=text] {
     }
 }
 
-@media (max-width: 576px) {
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
 
     h1 {
         font-size: 2.5rem;
@@ -465,6 +475,24 @@ input[type=text] {
 
     p, a, ul, li, span {
         font-size: 1rem;
+    }
+
+    #index-header {
+        padding: 2.5rem;
+    }
+
+    #index-h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    #index-main {
+        padding: 0;
+    }
+
+    #fall-btn, #winter-btn {
+        margin: 0;
+        /* margin-bottom: 1.7rem; */
     }
     
 }

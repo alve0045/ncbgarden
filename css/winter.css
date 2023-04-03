@@ -306,8 +306,19 @@
     Media Queries
 ================= */ 
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #navbarNav ul li{
+        border-color: var(--winter-brand);
+    }  
+}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}
