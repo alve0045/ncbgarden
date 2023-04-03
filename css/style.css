@@ -93,7 +93,7 @@ p, a, ul, li, span {
     height: 32rem;
 }
 
-.section img {
+.section-img {
     max-width: 450px;
 }
 
@@ -413,6 +413,10 @@ input[type=text] {
 
         border-bottom: solid 1px;
     }  
+
+    .section-img {
+        max-width: 400px;
+    }
 
 }
 
