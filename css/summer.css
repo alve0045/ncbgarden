@@ -173,10 +173,6 @@
     max-width: 300px;
 }
 
-#summer-ssec-thumbnail-sec img {
-    max-width: 250px;
-}
-
 .book-item a {
     color: var(--summer-brand);
     font-weight: 700;

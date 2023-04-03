@@ -109,6 +109,11 @@ li {
     padding-bottom: 1rem;
 }
 
+.section2-thumbnail {
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
 .footer {   
     text-align: right;
     padding-top: 5rem;
@@ -462,6 +467,10 @@ input[type=text] {
     .section-img {
         max-width: 350px;
     }
+
+    .section2-thumbnail {
+        max-width: 150px;
+    } 
     
     #index-p {
         border: none;
