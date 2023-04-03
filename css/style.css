@@ -418,8 +418,9 @@ input[type=text] {
     }
 
     #navbarNav ul li{
-
+        min-height: 80px;
         border-bottom: solid 1px;
+        align-items: flex-end;
     }  
 
     .section-img {
@@ -475,6 +476,10 @@ input[type=text] {
         padding: 1.5rem 2rem;
 
     }
+
+    .footer {
+        text-align: left;
+    }
     
 }
 
@@ -521,6 +526,11 @@ input[type=text] {
     #fall-btn, #winter-btn {
         margin: 0;
         /* margin-bottom: 1.7rem; */
+    }
+
+    .footer .custom-btn{
+        width: 100%;
+        margin-bottom: 1rem;
     }
     
 }
