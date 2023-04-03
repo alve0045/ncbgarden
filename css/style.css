@@ -162,7 +162,6 @@ span .references {
     box-shadow: none;
 }
 
-
 nav ul li {
     padding: 0 1rem;
 }
@@ -406,6 +405,10 @@ input[type=text] {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .nav-thumbnail {
+        display: none;
+    }
+
     .brand-full {
         display: none;
     }
