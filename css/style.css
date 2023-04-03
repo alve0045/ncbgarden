@@ -426,6 +426,14 @@ input[type=text] {
         max-width: 400px;
     }
 
+    .section-3-img {
+        order:2;
+    }
+
+    .section-3-text {
+        order:1;
+    }
+
 }
 
  /* Small devices (landscape phones, less than 768px) */
@@ -474,7 +482,7 @@ input[type=text] {
 @media (max-width: 575.98px) {
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         line-height: 3rem;
         padding-top:2.5rem;
         padding-bottom: 1rem;

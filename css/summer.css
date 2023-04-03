@@ -224,11 +224,11 @@
     padding-bottom: 1.5rem;
 }
 
-.text-section3 a {
+#summer-third-sec a {
     color: var(--summer-brand);
 }
 
-.text-section3 a:hover {
+#summer-third-sec a:hover {
     color: var(--summer-accent);
 }
 
