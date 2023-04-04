@@ -327,6 +327,10 @@ nav ul li {
     Form Page
 ================= */ 
 
+.nav-item a:hover {
+    color: var(--spring-accent);
+}
+
 .section1-form, .section2-form {
     padding: 6rem 2rem;
 }
@@ -340,6 +344,7 @@ nav ul li {
     color: var(--spring-brand);
     font-weight: 800;
     font-size: 3rem;
+    padding-top: 1rem;
 }
 
 .section1-form p {
@@ -356,6 +361,10 @@ nav ul li {
     color: var(--spring-brand);
     font-size: 2rem;
     font-weight: 700;
+}
+
+.section1-form a:hover {
+    color: var(--spring-accent);
 }
 
 .box-form {
