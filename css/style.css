@@ -207,7 +207,7 @@ nav ul li {
     background-color: var(--summer-secondary);
     background-position: left;
     padding: 2rem;
-    width: 20rem;
+    width: 18rem;
     border-radius: 0.8rem;
     transition: background-color 0.5s ease;
 }
@@ -230,7 +230,7 @@ nav ul li {
     background-color: var(--fall-brand);
     background-position: left;
     padding: 2rem;
-    width: 20rem;
+    width: 18rem;
     border-radius: 0.8rem;
     transition: background-color 0.5s ease;
 }
@@ -254,7 +254,7 @@ nav ul li {
     background-color: var(--winter-brand);
     background-position: left;
     padding: 2rem;
-    width: 20rem;
+    width: 18rem;
     border-radius: 0.8rem;
     transition: background-color 0.5s ease;
 }
