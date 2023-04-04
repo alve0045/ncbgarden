@@ -159,6 +159,7 @@ span .references {
 
 nav ul li {
     padding: 0 1rem;
+
 }
 
 .nav-link {
@@ -398,6 +399,13 @@ input[type=text] {
     Media Queries
 ================= */ 
 
+/* Used only for the form navigation */
+@media (min-width: 992px) {
+    #form-nav ul li{
+        line-height: 72px;
+    }
+}    
+
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .nav-thumbnail {
@@ -421,7 +429,6 @@ input[type=text] {
     }
 
     #navbarNav ul li{
-        min-height: 80px;
         border-bottom: solid 1px;
         align-items: flex-end;
     }  
