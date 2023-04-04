@@ -119,14 +119,6 @@
     padding-top: 2rem;
 }
 
-#spring-first-sec h1 {
-    line-height: 3.8rem;
-    font-size: 3.5rem;
-    font-weight: 800;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-}
-
 #spring-fsec-img1 {
     position: absolute;
     bottom: -22%;
@@ -227,10 +219,6 @@
     z-index: 100;
 }
 
-#spring-ssec-thumbnail-sec img {
-    max-width: 200px;
-}
-
 /* Spring Third Section */
 
 #spring-third-sec {
@@ -257,16 +245,13 @@
     padding-bottom: 3rem;
 }
 
-.image-section4{
-    z-index: 1;
-}
-
 #spring-frsec-img1 {
     position: absolute;
     bottom: -5%;
     right: 0;
-    z-index: 0;
     max-width: 400px;
+    z-index: 0;
+
 }
 
 /* Spring Fifth Section */
@@ -286,15 +271,12 @@
     margin-right: 1rem;
 }
 
-#spring-fifth-sec .footer-sec1 img {
+#spring-fifth-img1 {
     position: absolute;
     bottom: 0;
     left: 10%;
     max-width: 500px;
-}
-
-.footer-sec2 {
-    z-index: 1;
+    z-index: 1000;
 }
 
 .title-footer {
@@ -304,9 +286,59 @@
 /* =================
     Media Queries
 ================= */ 
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #navbarNav ul li{
+        border-color: var(--spring-brand);
+    }  
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+    #spring-fsec-img1, #spring-fsec-img2, #spring-fsec-img5, #spring-fsec-img6 {
+        max-width: 300px;
+    }
+    
+    #spring-fsec-img3, #spring-fsec-img4 {
+        max-width: 200px;
+    }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+    #spring-ssec-img1, #spring-ssec-img2 {
+        max-width: 200px;
+    }
+
+    #spring-frsec-img1 {
+        max-width: 350px;
+    }
+
+    #spring-fifth-img1 {
+        left: 5%;
+        max-width: 400px;
+    }
+}
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+
+    #spring-fsec-img1, #spring-fsec-img2, 
+    #spring-fsec-img3, #spring-fsec-img4, 
+    #spring-fsec-img5, #spring-fsec-img6 {
+        display: none;
+    }
+
+    #spring-ssec-img1, #spring-ssec-img2 {
+        display: none;
+    }
+
+    #spring-frsec-img1 {
+        display: none;
+    }
+
+    #spring-fifth-img1 {
+        display: none;
+    }
+
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}

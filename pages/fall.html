@@ -24,13 +24,14 @@
       <nav class="navbar navbar-expand-lg nav-fall">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
-                <img class="brand" src="../assets/fall/logo-fall-section1.svg" alt="NCBGarden Logo">
+                <img class="brand-full" src="../assets/fall/logo-fall-section1.svg" alt="NCBGarden Logo">
+                <img class="brand-half" src="../assets/fall/logo-fall-section5.svg" alt="NCBGarden Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center align-items-end">
+                <ul class="navbar-nav ms-auto text-center">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
@@ -41,7 +42,7 @@
                     <a class="nav-link" href="summer.html">Summer</a>
                 </li>
                 <li class="nav-item">
-                    <img id="nav-fall-img" class="text-center" src="../assets/fall/fall-icon.svg" alt="leaf">
+                    <img id="nav-fall-img" class="nav-thumbnail text-center" src="../assets/fall/fall-icon.svg" alt="leaf">
                     <a class="nav-link fall-active" href="fall.html">Fall</a>
                 </li>
                 <li class="nav-item">
@@ -58,7 +59,7 @@
 
     <!-- First Section (Start) -->
     <div id="fall-first-sec" class="section landing-sec">
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-xs-12 text-center">
                 <img class="custom-thumbnail" src="../assets/fall/fall-icon-section1.svg" alt="fall leaf icon">
                 <h1>Take measures for a <br> sustainable fall!</h1>
@@ -74,7 +75,7 @@
 
     <!-- Second Section (Start) -->
     <div id="fall-second-sec" class="section">
-        <div class="row justify-content-around">
+        <div class="row gy-5 d-flex align-items-center">
             <div class="col-lg-5 col-xs-12 mx-auto text-section2">
                 <h2>1. <br>Recipes with garden-fresh produce</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -86,27 +87,27 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div class="col-lg-auto col-xs-12 mx-auto image-section2">
-                <img src="../assets/fall/vegetables-section2.jpg" alt="Image of vegetables">
+            <div class="col-lg-auto col-xs-12 mx-auto d-flex justify-content-center">
+                <img class="section-img" src="../assets/fall/vegetables-section2.jpg" alt="Image of vegetables">
             </div>
         </div>
-        <div id="fall-ssec-thumbnail-sec" class="row justify-content-center">
+        <div id="fall-ssec-thumbnail-sec" class="row justify-content-center mt-3 gy-5">
             <div class="col-lg-3 col-xs-12 text-center ">
-                <img src="../assets/fall/recipe1.png" alt="italian food icon">
+                <img class="section2-thumbnail" src="../assets/fall/recipe1.png" alt="italian food icon">
                 <h3>Recipe 01</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
             <div class="col-lg-3 col-xs-12 text-center">
-                <img src="../assets/fall/recipe2.png" alt="smoothie icon">
+                <img class="section2-thumbnail" src="../assets/fall/recipe2.png" alt="smoothie icon">
                 <h3>Recipe 02</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
             <div class="col-lg-3 col-xs-12 text-center">
-                <img src="../assets/fall/recipe3.png" alt="vegetables icon">
+                <img class="section2-thumbnail" src="../assets/fall/recipe3.png" alt="vegetables icon">
                 <h3>Recipe 03</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -125,11 +126,11 @@
 
     <!-- Third Section (Start) -->
     <div id="fall-third-sec" class="section">
-        <div class="row justify-content-around">
-            <div id="bee-image" class="col-lg-auto col-xs-12 mx-auto image-section3">
-                <img src="../assets/fall/bee-section3.jpg" alt="Image of composting with a bee" >
+        <div class="row gy-5 d-flex align-items-center">
+            <div id="bee-image" class="col-lg-auto col-xs-12 mx-auto d-flex justify-content-center section-3-img">
+                <img class="section-img" src="../assets/fall/bee-section3.jpg" alt="Image of composting with a bee" >
             </div>
-            <div class="col-lg-4 col-xs-12 mx-auto text-section3">
+            <div class="col-lg-4 col-xs-12 mx-auto section-3-text">
                 <h2>2. <br> All about <br> composting</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -145,7 +146,7 @@
 
     <!-- Fourth Section (Start) -->
     <div id="fall-fourth-sec" class="section">
-        <div class="row justify-content-around">
+        <div class="row gy-5 d-flex align-items-center">
             <div class="col-lg-5 col-xs-12 mx-auto text-section4">
                 <h2>3. <br> Go chemical <br> free</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -156,8 +157,8 @@
                 </p>
                 <span class="references-dark" id="ref-section4"><em>Source:&nbsp<a href="https://www.bobvila.com/slideshow/8-reasons-not-to-use-pesticides-in-your-yard-and-garden-52794"> 8 Reasons Not to Use Pesticides in Your Yard and Garden, Noonan J., n.d.</a></em></span>
             </div>
-            <div class="col-lg-auto col-xs-12 mx-auto image-section4">
-                <img src="../assets/fall/water-section4.png" alt="people watering plants">
+            <div class="col-lg-auto col-xs-12 mx-auto d-flex justify-content-center">
+                <img class="section-img section-img-overlay" src="../assets/fall/water-section4.png" alt="people watering plants">
             </div>
         </div>  
         <img id="fall-frsec-img1" src="../assets/fall/maple-leaf-section4.png" alt="maple leaf">      
@@ -166,7 +167,7 @@
 
     <!-- Fifth Section (Start) -->
     <div id="fall-fifth-sec" class="section">
-        <div class="row justify-content-around">
+        <div class="row gy-5 d-flex align-items-center">
             <div class="col-lg-5 col-xs-12 mx-auto text-section5">
                 <h2>4. <br> Leave the <br> leaves</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -177,16 +178,16 @@
                 </p>
                 <span class="references-light"><em>Source:&nbsp <a href="https://www.oursafetynet.org/2020/08/31/how-fallen-leaves-support-biodiversity-and-climate/?gclid=Cj0KCQiAorKfBhC0ARIsAHDzsluuZ8RvIj21udySZaBsSnOVlLWh-edxD4ijlQUCdW05UAofZY_na8YaAkA-EALw_wcB">A Little Help From My Friends, National Environmental Treasure, n.d.</a></em></span>
             </div>
-            <div class="col-lg-auto col-xs-12 mx-auto image-section5">
-                <img src="../assets/fall/leaves-section5.jpg" alt="Shoes of a person standing on a group of leaves">
+            <div class="col-lg-auto col-xs-12 mx-auto d-flex justify-content-center">
+                <img class="section-img" src="../assets/fall/leaves-section5.jpg" alt="Shoes of a person standing on a group of leaves">
             </div>
         </div>     
-        <div class="row footer justify-content-between">
+        <div class="row footer gy-5">
             <div class="col-lg-4 col-xs-12 mx-auto footer-sec1">
-                <img src="../assets/fall/chrysanthemum.png" alt="Image of a colorful flower">
+                <img id="fall-fifth-img1" src="../assets/fall/chrysanthemum.png" alt="Image of a colorful flower">
             </div>
             <div class="col-lg-auto col-xs-12 mx-auto footer-sec2 ">
-                    <img class="footer-brand" src="../assets/fall/logo-fall-section5.svg" alt="logo">
+                    <img  class="footer-brand" src="../assets/fall/logo-fall-section5.svg" alt="logo">
                     <h2 class="title-footer">Did you help the <br> environment <br> before?</h2>
                     <h2>We're all ears!</h2>
                         <button id="fall-btn2" type="button" class="custom-btn">
