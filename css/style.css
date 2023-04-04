@@ -529,6 +529,10 @@ input[type=text] {
         font-size: 1rem;
     }
 
+    .section {
+        padding: 5rem 2.5rem;
+    }
+
     .section-img {
         max-width: 300px;
     }
