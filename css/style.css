@@ -137,10 +137,6 @@ span .references {
 
 #navbarNav li {
     padding-top: 1rem;
-} 
-
-.navbar-brand {
-    padding: 0 2rem;
 }
 
 .brand-full {
@@ -149,7 +145,6 @@ span .references {
 }
 
 .brand-half {
-    margin-top: 0.8rem;
     max-height: 57.95px;
     display: none;
 }
