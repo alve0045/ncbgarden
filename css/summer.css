@@ -3,6 +3,27 @@
     Summer Styles
 ================= */ 
 
+
+/* General Styles */
+
+.references-light a {
+    color: var(--spring-brand);
+    padding-left: 0.2rem;
+}
+
+.references-light a:hover {
+    color: var(--spring-accent);
+}
+
+.references-dark a {
+    color: var(--spring-secondary);
+    padding-left: 0.2rem;
+}
+
+.references-dark a:hover {
+    color: var(--spring-tertiary);
+}
+
 /* Summer Navigation */
 
 .nav-summer{
@@ -155,6 +176,14 @@
     text-align: left;
 }
 
+.text-section2 a {
+    color: var(--summer-brand);
+}
+
+.text-section2 a:hover {
+    color: var(--summer-accent);
+}
+
 #summer-ssec-img1 {
     position: absolute;
     bottom: 0;
@@ -171,6 +200,10 @@
 
 #summer-ssec-img1, #summer-ssec-img2 {
     max-width: 300px;
+}
+
+.book-item img {
+    border: 1px solid var(--summer-brand);
 }
 
 .book-item a {
@@ -202,6 +235,7 @@
 
 #ref-section2 a {
     color: var(--summer-brand);
+    padding-left: 0.5rem;
 }
 
 #ref-section2 a:hover {
