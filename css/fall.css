@@ -7,6 +7,7 @@
 
 .references-light a {
     color: var(--fall-brand);
+    padding-left: 0.3rem;
 }
 
 .references-light a:hover {
@@ -15,6 +16,7 @@
 
 .references-dark a {
     color: var(--fall-primary);
+    padding-left: 0.3rem;
 }
 
 .references-dark a:hover {
@@ -205,6 +207,14 @@
 
 #source-section2 {
     padding-top: 3rem;
+}
+
+.text-section2 a {
+    color: var(--fall-primary);
+}
+
+.text-section2 a:hover {
+    color: var(--fall-tertiary);
 }
 
 /* Fall Third Section */
