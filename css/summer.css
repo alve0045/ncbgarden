@@ -106,7 +106,7 @@
     background-color: var(--summer-primary);
     color: var(--summer-brand);
     position: relative;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 #summer-fsec-img1 {
@@ -144,7 +144,7 @@
     background-color: var(--summer-secondary);
     color: var(--summer-brand);
     position: relative;
-    padding: 6.5rem 6rem 6rem 6rem;
+    /* padding: 6.5rem 6rem 6rem 6rem; */
 }
 
 #summer-second-sec h3 {
@@ -213,7 +213,7 @@
 #summer-third-sec {
     background-color: var(--summer-primary);
     color: var(--summer-brand);
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
 }
 
 #summer-third-sec p {
@@ -235,8 +235,8 @@
 #summer-fourth-sec {
     background-color:var(--summer-secondary);
     color: var(--summer-brand);
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    /* padding-top: 7rem;
+    padding-bottom: 7rem; */
 }
 
 #summer-fourth-sec p {

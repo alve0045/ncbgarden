@@ -119,7 +119,7 @@
     background-color: var(--winter-primary);
     color: var(--winter-brand);
     position: relative;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 #winter-fsec-img1 {
@@ -168,7 +168,7 @@
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
-    padding: 6.5rem 6rem 6rem 6rem; 
+    /* padding: 6.5rem 6rem 6rem 6rem;  */
 }
 
 .image-section2 img {
@@ -234,7 +234,7 @@
 #winter-third-sec {
     background-color: var(--winter-primary);
     color: var(--winter-brand);
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
 }
 
 #winter-third-sec p {
@@ -247,8 +247,8 @@
     background-color: var(--winter-secondary);
     color: var(--winter-primary);
     position: relative;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    /* padding-top: 7rem;
+    padding-bottom: 7rem; */
 }
 
 #winter-fourth-sec p {

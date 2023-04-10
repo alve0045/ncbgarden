@@ -116,7 +116,7 @@
     background-color: var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 #spring-fsec-img1 {
@@ -175,7 +175,8 @@
     background-color: var(--spring-brand);
     color: var(--spring-secondary);
     position: relative;
-    padding: 6.5rem 6rem 6rem 6rem;
+/*     padding-top: 6.5rem;
+    padding-bottom: 6rem; */
 }
 
 #spring-second-sec h3 {
@@ -224,7 +225,7 @@
 #spring-third-sec {
     background-color: var(--spring-primary);
     color: var(--spring-brand);
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
 }
 
 #spring-third-sec p {
@@ -237,8 +238,8 @@
     background-color:var(--spring-brand);
     color: var(--spring-secondary);
     position: relative;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    /* padding-top: 7rem;
+    padding-bottom: 7rem; */
 }
 
 #spring-fourth-sec p {
@@ -260,7 +261,7 @@
     background-color:var(--spring-primary);
     color: var(--spring-brand);
     position: relative;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
 }
 
 #spring-fifth-sec p {

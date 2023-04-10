@@ -89,7 +89,7 @@ li {
 
 .section {
     width: 100%;
-    padding: 5rem 5rem;
+    padding: 7rem 5rem;
     font-size: 1.2rem;
 }
 
@@ -530,7 +530,7 @@ input[type=text] {
     }
 
     .section {
-        padding: 5rem 2.5rem;
+        padding: 7rem 2.5rem;
     }
 
     .section-img {
