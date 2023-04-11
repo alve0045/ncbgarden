@@ -1,6 +1,11 @@
 (function () {
   'use strict';
 
+  // Hide the alert message by default
+  var alert = document.getElementById('custom-alert');
+  alert.style.display = 'none';
+
+  // Initialize variables
   var forms = document.querySelectorAll('.needs-validation');
 
   var emailInput = document.querySelector('#email');
@@ -104,7 +109,7 @@
                       From: 'odinquiries@gmail.com',
                       Subject: 'You got a new feedback from NCB Microsite',
                       Body: body,
-                  }).then((message) => alert('We appreciate your story!'));
+                  }).then((message) => alert.style.display = 'block' );
               }
           },
           false
