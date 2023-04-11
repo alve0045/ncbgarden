@@ -3,16 +3,15 @@
 
   var forms = document.querySelectorAll('.needs-validation');
 
-  const emailInput = document.querySelector('#email');
-  const fnameInput = document.querySelector('#first-name');
-  const lnameInput = document.querySelector('#last-name');
-  const messageTextarea = document.querySelector('#message');
+  var emailInput = document.querySelector('#email');
+  var fnameInput = document.querySelector('#first-name');
+  var lnameInput = document.querySelector('#last-name');
+  var messageTextarea = document.querySelector('#message');
 
-  // Move the isEmailValid variable declaration here
-  let isEmailValid = false; 
-
+  // Email Validation
+  var isEmailValid = false; 
   emailInput.addEventListener('input', function () {
-      const email = emailInput.value.trim();
+      var email = emailInput.value.trim();
       const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       isEmailValid = pattern.test(email);
       if (isEmailValid) {
@@ -24,32 +23,79 @@
       }
   });
 
+  // First Name Validation
+  var isFnameValid = false; 
+  fnameInput.addEventListener('input', function () {
+      var fname = fnameInput.value.trim();
+      if (fname === '') {
+        isFnameValid = false; 
+        fnameInput.classList.remove('is-valid');
+        fnameInput.classList.add('is-invalid');
+      } else {
+        isFnameValid = true; 
+        fnameInput.classList.remove('is-invalid');
+        fnameInput.classList.add('is-valid');
+        
+      }
+  });
+
+  // Last Name Validation
+  var isLnameValid = false; 
+  lnameInput.addEventListener('input', function () {
+      var lname = lnameInput.value.trim();
+      if (lname === '') {
+        isLnameValid = false; 
+        lnameInput.classList.remove('is-valid');
+        lnameInput.classList.add('is-invalid');
+      } else {
+        isLnameValid = true; 
+        lnameInput.classList.remove('is-invalid');
+        lnameInput.classList.add('is-valid');
+        
+      }
+  });
+
+  // Message Validation
+  var isMessageValid = false; 
+  messageTextarea.addEventListener('input', function () {
+      var message = messageTextarea.value.trim();
+      if (message === '') {
+        isMessageValid = false; 
+        messageTextarea.classList.remove('is-valid');
+        messageTextarea.classList.add('is-invalid');
+      } else {
+        isMessageValid = true; 
+        messageTextarea.classList.remove('is-invalid');
+        messageTextarea.classList.add('is-valid');
+        
+      }
+  });
+
   Array.prototype.slice.call(forms).forEach(function (form) {
       form.addEventListener(
           'submit',
           function (event) {
-              // Move the declarations and initializations inside the form submit event listener
-              const fname = fnameInput.value.trim();
-              const lname = lnameInput.value.trim();
-              const message = messageTextarea.value.trim();
-              if (!form.checkValidity() || !isEmailValid) {
+              if (!isEmailValid ||  !isFnameValid || !isLnameValid || !isMessageValid) {
                   event.preventDefault();
                   event.stopPropagation();
-              } else {
-                // Prevent the default form submission behavior
-                  event.preventDefault(); 
-                  form.classList.add('was-validated');
+                  console.log('Validation Fail');
+              } 
+              if (isEmailValid && isFnameValid && isLnameValid && isMessageValid){
+                    console.log('Validation Success');
+                    // Prevent the default form submission behavior
+                    event.preventDefault(); 
+                    form.classList.add('was-validated');
 
-                  // Construct the email
-                  let body =
+                    // Construct the email
+                    let body =
                       'First Name: ' +
-                      fname +
+                      fnameInput.value.trim() +
                       '<br/>Last Name: ' +
-                      lname +
+                      lnameInput.value.trim() +
                       '<br/>Email: ' +
                       emailInput.value.trim() +
                       '<br/>Message: ' +
-                      message;
+                      messageTextarea.value.trim();
 
                   // SMTP JS Email Verification
                   Email.send({
